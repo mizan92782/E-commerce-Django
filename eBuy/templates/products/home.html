@@ -4,20 +4,27 @@
 
 {% block content %}
 
-{% for product in products %}
-<a href="{% url 'product_detail' product.id %}" style="text-decoration: none; color: inherit;">
-    <div class="card" style="width: 16rem;">
-        <img src="{{ product.image.url }}" class="card-img-top" alt="produnt-imange">
-        <div class="card-body">
-            <h5>{{product.title}}</h5>
-            <h5 class="">{{product.price}}</h5>
-            <p class="">{{ product.description|truncatewords:10 }}</p>
-            <a href="#" class="btn btn-primary">Add to Card</a>
+
+{% if selected_category %}
+    <h2>{{ selected_category }}</h2>
+{% else %}
+    <h2>All Products</h2>
+{% endif %}
+
+
+<div class="product-container">
+    {% for product in products %}
+    <div class="product-card">
+        <a href="{% url 'product_detail' product.id %}">
+            <img src="{{ product.image.url }}" alt="{{ product.title }}" class="product-image">
+        </a>
+        <div class="product-body">
+            <h5 class="product-title">{{ product.title }}</h5>
+            <h5 class="product-price">${{ product.price }}</h5>
+            <p class="product-description">{{ product.description|truncatewords:10 }}</p>
+            <a href="#" class="product-button">Add to Cart</a>
         </div>
     </div>
-
-</a>
-{% endfor %}
-
-
+    {% endfor %}
+</div>
 {% endblock %}

@@ -147,6 +147,22 @@
         "documentation": {}
     },
     {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "models",
         "importPath": "django.db",
         "description": "django.db",
@@ -316,7 +332,7 @@
         "kind": 5,
         "importPath": "eBuy.eBuy.settings",
         "description": "eBuy.eBuy.settings",
-        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\nMEDIA_URL = 'media/'\nMEDIA_ROOT = BASE_DIR / 'media'\n# Default primary key field type",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\nMEDIA_URL = 'media/'\nMEDIA_ROOT = BASE_DIR / 'media'\nimport os",
         "detail": "eBuy.eBuy.settings",
         "documentation": {}
     },
@@ -325,7 +341,7 @@
         "kind": 5,
         "importPath": "eBuy.eBuy.settings",
         "description": "eBuy.eBuy.settings",
-        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\nMEDIA_URL = 'media/'\nMEDIA_ROOT = BASE_DIR / 'media'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\nMEDIA_URL = 'media/'\nMEDIA_ROOT = BASE_DIR / 'media'\nimport os\n# Static files (CSS, JavaScript, Images)",
         "detail": "eBuy.eBuy.settings",
         "documentation": {}
     },
@@ -334,7 +350,7 @@
         "kind": 5,
         "importPath": "eBuy.eBuy.settings",
         "description": "eBuy.eBuy.settings",
-        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\nMEDIA_URL = 'media/'\nMEDIA_ROOT = BASE_DIR / 'media'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\nMEDIA_URL = 'media/'\nMEDIA_ROOT = BASE_DIR / 'media'\nimport os\n# Static files (CSS, JavaScript, Images)\nSTATIC_URL = '/static/'",
         "detail": "eBuy.eBuy.settings",
         "documentation": {}
     },
@@ -343,7 +359,7 @@
         "kind": 5,
         "importPath": "eBuy.eBuy.settings",
         "description": "eBuy.eBuy.settings",
-        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\nMEDIA_URL = 'media/'\nMEDIA_ROOT = BASE_DIR / 'media'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\nMEDIA_URL = 'media/'\nMEDIA_ROOT = BASE_DIR / 'media'\nimport os\n# Static files (CSS, JavaScript, Images)\nSTATIC_URL = '/static/'\n# Path to the static folder",
         "detail": "eBuy.eBuy.settings",
         "documentation": {}
     },
@@ -352,7 +368,7 @@
         "kind": 5,
         "importPath": "eBuy.eBuy.settings",
         "description": "eBuy.eBuy.settings",
-        "peekOfCode": "STATIC_URL = 'static/'\nMEDIA_URL = 'media/'\nMEDIA_ROOT = BASE_DIR / 'media'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "STATIC_URL = 'static/'\nMEDIA_URL = 'media/'\nMEDIA_ROOT = BASE_DIR / 'media'\nimport os\n# Static files (CSS, JavaScript, Images)\nSTATIC_URL = '/static/'\n# Path to the static folder\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'static'),\n]",
         "detail": "eBuy.eBuy.settings",
         "documentation": {}
     },
@@ -361,7 +377,7 @@
         "kind": 5,
         "importPath": "eBuy.eBuy.settings",
         "description": "eBuy.eBuy.settings",
-        "peekOfCode": "MEDIA_URL = 'media/'\nMEDIA_ROOT = BASE_DIR / 'media'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "MEDIA_URL = 'media/'\nMEDIA_ROOT = BASE_DIR / 'media'\nimport os\n# Static files (CSS, JavaScript, Images)\nSTATIC_URL = '/static/'\n# Path to the static folder\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'static'),\n]\n# Where static files will be collected",
         "detail": "eBuy.eBuy.settings",
         "documentation": {}
     },
@@ -370,7 +386,34 @@
         "kind": 5,
         "importPath": "eBuy.eBuy.settings",
         "description": "eBuy.eBuy.settings",
-        "peekOfCode": "MEDIA_ROOT = BASE_DIR / 'media'\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "peekOfCode": "MEDIA_ROOT = BASE_DIR / 'media'\nimport os\n# Static files (CSS, JavaScript, Images)\nSTATIC_URL = '/static/'\n# Path to the static folder\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'static'),\n]\n# Where static files will be collected\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')",
+        "detail": "eBuy.eBuy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "eBuy.eBuy.settings",
+        "description": "eBuy.eBuy.settings",
+        "peekOfCode": "STATIC_URL = '/static/'\n# Path to the static folder\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'static'),\n]\n# Where static files will be collected\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "eBuy.eBuy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATICFILES_DIRS",
+        "kind": 5,
+        "importPath": "eBuy.eBuy.settings",
+        "description": "eBuy.eBuy.settings",
+        "peekOfCode": "STATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'static'),\n]\n# Where static files will be collected\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "eBuy.eBuy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_ROOT",
+        "kind": 5,
+        "importPath": "eBuy.eBuy.settings",
+        "description": "eBuy.eBuy.settings",
+        "peekOfCode": "STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
         "detail": "eBuy.eBuy.settings",
         "documentation": {}
     },
@@ -420,6 +463,15 @@
         "documentation": {}
     },
     {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "eBuy.products.migrations.0003_remove_products_image1_remove_products_image2_and_more",
+        "description": "eBuy.products.migrations.0003_remove_products_image1_remove_products_image2_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('products', '0002_rename_images_products_image_products_image1_and_more'),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name='products',\n            name='image1',\n        ),\n        migrations.RemoveField(",
+        "detail": "eBuy.products.migrations.0003_remove_products_image1_remove_products_image2_and_more",
+        "documentation": {}
+    },
+    {
         "label": "ProductsAdmin",
         "kind": 6,
         "importPath": "eBuy.products.admin",
@@ -438,11 +490,20 @@
         "documentation": {}
     },
     {
+        "label": "category_context",
+        "kind": 2,
+        "importPath": "eBuy.products.context_processors",
+        "description": "eBuy.products.context_processors",
+        "peekOfCode": "def category_context(request):\n    categories = [cat[0] for cat in product_category]\n    return {\n        'categorieslist': categories\n    }",
+        "detail": "eBuy.products.context_processors",
+        "documentation": {}
+    },
+    {
         "label": "Products",
         "kind": 6,
         "importPath": "eBuy.products.models",
         "description": "eBuy.products.models",
-        "peekOfCode": "class Products(models.Model):\n   owner = models.ForeignKey(User, on_delete=models.CASCADE)\n   title = models.CharField(max_length=50)\n   description = models.TextField(max_length=5000)\n   price =models.IntegerField()\n   count= models.IntegerField(default=0)\n   category = models.CharField(choices=product_category)\n   image=models.FileField(upload_to=products_image)\n   image1=models.FileField(upload_to=products_image,null=True,blank=True)\n   image2=models.FileField(upload_to=products_image,null=True,blank=True)",
+        "peekOfCode": "class Products(models.Model):\n   owner = models.ForeignKey(User, on_delete=models.CASCADE)\n   title = models.CharField(max_length=50)\n   description = models.TextField(max_length=5000)\n   price =models.IntegerField()\n   count= models.IntegerField(default=0)\n   category = models.CharField(choices=product_category)\n   image=models.FileField(upload_to=products_image)\n   def __str__(self):\n        return self.title",
         "detail": "eBuy.products.models",
         "documentation": {}
     },
@@ -460,7 +521,7 @@
         "kind": 5,
         "importPath": "eBuy.products.urls",
         "description": "eBuy.products.urls",
-        "peekOfCode": "urlpatterns = [\n  path('', views.productsView, name='productsView'),\n  path('product/<int:id>/', views.product_detail, name='product_detail'),\n]",
+        "peekOfCode": "urlpatterns = [\n  path('', views.productsView, name='productsView'),\n  path('product/<int:id>/', views.product_detail, name='product_detail'),\n  path('product/<str:category>/', views.category_all_products, name='categories_all_products'),\n]",
         "detail": "eBuy.products.urls",
         "documentation": {}
     },
@@ -469,7 +530,7 @@
         "kind": 2,
         "importPath": "eBuy.products.views",
         "description": "eBuy.products.views",
-        "peekOfCode": "def productsView(request):\n  products = Products.objects.all()\n  context= {\n      'products': products,\n  }\n  return render(request, 'products/home.html',context)\ndef product_detail(request, id):\n    product = get_object_or_404(Products, id=id)\n    return render(request, 'products/detail.html', {'product': product})",
+        "peekOfCode": "def productsView(request):\n  products = Products.objects.all()\n  context= {\n      'products': products,\n  }\n  return render(request, 'products/home.html',context)\ndef product_detail(request, id):\n    product = get_object_or_404(Products, id=id)\n    return render(request, 'products/detail.html', {'product': product})\ndef category_all_products(request, category):",
         "detail": "eBuy.products.views",
         "documentation": {}
     },
@@ -478,7 +539,16 @@
         "kind": 2,
         "importPath": "eBuy.products.views",
         "description": "eBuy.products.views",
-        "peekOfCode": "def product_detail(request, id):\n    product = get_object_or_404(Products, id=id)\n    return render(request, 'products/detail.html', {'product': product})",
+        "peekOfCode": "def product_detail(request, id):\n    product = get_object_or_404(Products, id=id)\n    return render(request, 'products/detail.html', {'product': product})\ndef category_all_products(request, category):\n    products = Products.objects.filter(category=category)\n    return render(request, 'products/home.html', {\n        'products': products,\n        'selected_category': category\n    })",
+        "detail": "eBuy.products.views",
+        "documentation": {}
+    },
+    {
+        "label": "category_all_products",
+        "kind": 2,
+        "importPath": "eBuy.products.views",
+        "description": "eBuy.products.views",
+        "peekOfCode": "def category_all_products(request, category):\n    products = Products.objects.filter(category=category)\n    return render(request, 'products/home.html', {\n        'products': products,\n        'selected_category': category\n    })",
         "detail": "eBuy.products.views",
         "documentation": {}
     },

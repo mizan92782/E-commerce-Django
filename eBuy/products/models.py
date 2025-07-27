@@ -13,7 +13,18 @@ product_category=[
   ('Sport', 'Sport'),
   ('Beauty', 'Beauty'),
   ('Wearing', 'Wearing'),
-  ('Religious' , 'Religious')
+  ('Religious' , 'Religious'),
+  ('Fruits' , 'Fruits'),
+  ('Vegetables' , 'Vegetables'),
+  ('Household' , 'Household'),
+  ('Toys' , 'Toys'),
+  ('Pet' , 'Pet'),
+  ('Books' , 'Books'),
+  ('Stationary' , 'Stationary'),
+  ('Furniture' , 'Furniture'),
+  ('Tools' , 'Tools'),
+  ('Automotive' , 'Automotive'),
+  ('Garden' , 'Garden')
   
 ]
 
@@ -29,9 +40,7 @@ class Products(models.Model):
    count= models.IntegerField(default=0)
    category = models.CharField(choices=product_category)
    image=models.FileField(upload_to=products_image)
-   image1=models.FileField(upload_to=products_image,null=True,blank=True)
-   image2=models.FileField(upload_to=products_image,null=True,blank=True)
-   image3=models.FileField(upload_to=products_image,null=True,blank=True)
+   
    
    def __str__(self):
         return self.title
