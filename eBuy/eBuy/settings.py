@@ -38,17 +38,76 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'products',
+    
+    
+    
+    # Allauth apps
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
+
+    # Optional: for social providers
+    'allauth.socialaccount.providers.google',
+    'allauth.socialaccount.providers.facebook',
+    'allauth.socialaccount.providers.github',
 ]
 
+
+AUTHENTICATION_BACKENDS = [
+    'django.contrib.auth.backends.ModelBackend',          # Default
+    'allauth.account.auth_backends.AuthenticationBackend' # Allauth
+]
+
+AUTHENTICATION_BACKENDS = [
+    'django.contrib.auth.backends.ModelBackend',          # Default
+    'allauth.account.auth_backends.AuthenticationBackend' # Allauth
+]
+
+
+# settings.py
+LOGIN_REDIRECT_URL = '/'          # Redirect after login
+ACCOUNT_LOGOUT_REDIRECT_URL = '/'  # Redirect after logout
+ACCOUNT_SIGNUP_REDIRECT_URL = '/'  
+ACCOUNT_EMAIL_REQUIRED = True
+ACCOUNT_USERNAME_REQUIRED = True
+ACCOUNT_AUTHENTICATION_METHOD = 'email'
+ACCOUNT_EMAIL_VERIFICATION = 'none'
+SOCIALACCOUNT_AUTO_SIGNUP = True
+ACCOUNT_EMAIL_REQUIRED = True
+ACCOUNT_UNIQUE_EMAIL = True
+
+
+
+SOCIALACCOUNT_PROVIDERS = {
+    'google': {
+        'APP': {
+            'client_id': '982256397195-1u55e0osv3gbdfh0lmnrmf74et4e35h8.apps.googleusercontent.com',
+            'secret': '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',
+        },
+        'AUTH_PARAMS': {
+            'access_type': 'online',
+            'prompt': 'select_account'   # Force Google to ask account every time
+        },
+        'SCOPE': [
+            'profile',
+            'email',
+        ],
+    },
+    
+}
+
+
 MIDDLEWARE = [
-    'django.middleware.security.SecurityMiddleware',
+     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
-    'django.contrib.auth.middleware.AuthenticationMiddleware',
+    'django.contrib.auth.middleware.AuthenticationMiddleware',  # ← This must be above
+    'allauth.account.middleware.AccountMiddleware',              # ← Add this line
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+    
 
 ROOT_URLCONF = 'eBuy.urls'
 

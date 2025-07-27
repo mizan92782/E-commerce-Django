@@ -163,6 +163,22 @@
         "documentation": {}
     },
     {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "models",
         "importPath": "django.db",
         "description": "django.db",
@@ -269,7 +285,124 @@
         "kind": 5,
         "importPath": "eBuy.eBuy.settings",
         "description": "eBuy.eBuy.settings",
-        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'products',\n]\nMIDDLEWARE = [",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'products',\n    # Allauth apps\n    'allauth',",
+        "detail": "eBuy.eBuy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTHENTICATION_BACKENDS",
+        "kind": 5,
+        "importPath": "eBuy.eBuy.settings",
+        "description": "eBuy.eBuy.settings",
+        "peekOfCode": "AUTHENTICATION_BACKENDS = [\n    'django.contrib.auth.backends.ModelBackend',          # Default\n    'allauth.account.auth_backends.AuthenticationBackend' # Allauth\n]\nAUTHENTICATION_BACKENDS = [\n    'django.contrib.auth.backends.ModelBackend',          # Default\n    'allauth.account.auth_backends.AuthenticationBackend' # Allauth\n]\n# settings.py\nLOGIN_REDIRECT_URL = '/'          # Redirect after login",
+        "detail": "eBuy.eBuy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTHENTICATION_BACKENDS",
+        "kind": 5,
+        "importPath": "eBuy.eBuy.settings",
+        "description": "eBuy.eBuy.settings",
+        "peekOfCode": "AUTHENTICATION_BACKENDS = [\n    'django.contrib.auth.backends.ModelBackend',          # Default\n    'allauth.account.auth_backends.AuthenticationBackend' # Allauth\n]\n# settings.py\nLOGIN_REDIRECT_URL = '/'          # Redirect after login\nACCOUNT_LOGOUT_REDIRECT_URL = '/'  # Redirect after logout\nACCOUNT_SIGNUP_REDIRECT_URL = '/'  \nACCOUNT_EMAIL_REQUIRED = True\nACCOUNT_USERNAME_REQUIRED = True",
+        "detail": "eBuy.eBuy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGIN_REDIRECT_URL",
+        "kind": 5,
+        "importPath": "eBuy.eBuy.settings",
+        "description": "eBuy.eBuy.settings",
+        "peekOfCode": "LOGIN_REDIRECT_URL = '/'          # Redirect after login\nACCOUNT_LOGOUT_REDIRECT_URL = '/'  # Redirect after logout\nACCOUNT_SIGNUP_REDIRECT_URL = '/'  \nACCOUNT_EMAIL_REQUIRED = True\nACCOUNT_USERNAME_REQUIRED = True\nACCOUNT_AUTHENTICATION_METHOD = 'email'\nACCOUNT_EMAIL_VERIFICATION = 'none'\nSOCIALACCOUNT_AUTO_SIGNUP = True\nACCOUNT_EMAIL_REQUIRED = True\nACCOUNT_UNIQUE_EMAIL = True",
+        "detail": "eBuy.eBuy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ACCOUNT_LOGOUT_REDIRECT_URL",
+        "kind": 5,
+        "importPath": "eBuy.eBuy.settings",
+        "description": "eBuy.eBuy.settings",
+        "peekOfCode": "ACCOUNT_LOGOUT_REDIRECT_URL = '/'  # Redirect after logout\nACCOUNT_SIGNUP_REDIRECT_URL = '/'  \nACCOUNT_EMAIL_REQUIRED = True\nACCOUNT_USERNAME_REQUIRED = True\nACCOUNT_AUTHENTICATION_METHOD = 'email'\nACCOUNT_EMAIL_VERIFICATION = 'none'\nSOCIALACCOUNT_AUTO_SIGNUP = True\nACCOUNT_EMAIL_REQUIRED = True\nACCOUNT_UNIQUE_EMAIL = True\nSOCIALACCOUNT_PROVIDERS = {",
+        "detail": "eBuy.eBuy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ACCOUNT_SIGNUP_REDIRECT_URL",
+        "kind": 5,
+        "importPath": "eBuy.eBuy.settings",
+        "description": "eBuy.eBuy.settings",
+        "peekOfCode": "ACCOUNT_SIGNUP_REDIRECT_URL = '/'  \nACCOUNT_EMAIL_REQUIRED = True\nACCOUNT_USERNAME_REQUIRED = True\nACCOUNT_AUTHENTICATION_METHOD = 'email'\nACCOUNT_EMAIL_VERIFICATION = 'none'\nSOCIALACCOUNT_AUTO_SIGNUP = True\nACCOUNT_EMAIL_REQUIRED = True\nACCOUNT_UNIQUE_EMAIL = True\nSOCIALACCOUNT_PROVIDERS = {\n    'google': {",
+        "detail": "eBuy.eBuy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ACCOUNT_EMAIL_REQUIRED",
+        "kind": 5,
+        "importPath": "eBuy.eBuy.settings",
+        "description": "eBuy.eBuy.settings",
+        "peekOfCode": "ACCOUNT_EMAIL_REQUIRED = True\nACCOUNT_USERNAME_REQUIRED = True\nACCOUNT_AUTHENTICATION_METHOD = 'email'\nACCOUNT_EMAIL_VERIFICATION = 'none'\nSOCIALACCOUNT_AUTO_SIGNUP = True\nACCOUNT_EMAIL_REQUIRED = True\nACCOUNT_UNIQUE_EMAIL = True\nSOCIALACCOUNT_PROVIDERS = {\n    'google': {\n        'APP': {",
+        "detail": "eBuy.eBuy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ACCOUNT_USERNAME_REQUIRED",
+        "kind": 5,
+        "importPath": "eBuy.eBuy.settings",
+        "description": "eBuy.eBuy.settings",
+        "peekOfCode": "ACCOUNT_USERNAME_REQUIRED = True\nACCOUNT_AUTHENTICATION_METHOD = 'email'\nACCOUNT_EMAIL_VERIFICATION = 'none'\nSOCIALACCOUNT_AUTO_SIGNUP = True\nACCOUNT_EMAIL_REQUIRED = True\nACCOUNT_UNIQUE_EMAIL = True\nSOCIALACCOUNT_PROVIDERS = {\n    'google': {\n        'APP': {\n            'client_id': '982256397195-1u55e0osv3gbdfh0lmnrmf74et4e35h8.apps.googleusercontent.com',",
+        "detail": "eBuy.eBuy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ACCOUNT_AUTHENTICATION_METHOD",
+        "kind": 5,
+        "importPath": "eBuy.eBuy.settings",
+        "description": "eBuy.eBuy.settings",
+        "peekOfCode": "ACCOUNT_AUTHENTICATION_METHOD = 'email'\nACCOUNT_EMAIL_VERIFICATION = 'none'\nSOCIALACCOUNT_AUTO_SIGNUP = True\nACCOUNT_EMAIL_REQUIRED = True\nACCOUNT_UNIQUE_EMAIL = True\nSOCIALACCOUNT_PROVIDERS = {\n    'google': {\n        'APP': {\n            'client_id': '982256397195-1u55e0osv3gbdfh0lmnrmf74et4e35h8.apps.googleusercontent.com',\n            'secret': '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',",
+        "detail": "eBuy.eBuy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ACCOUNT_EMAIL_VERIFICATION",
+        "kind": 5,
+        "importPath": "eBuy.eBuy.settings",
+        "description": "eBuy.eBuy.settings",
+        "peekOfCode": "ACCOUNT_EMAIL_VERIFICATION = 'none'\nSOCIALACCOUNT_AUTO_SIGNUP = True\nACCOUNT_EMAIL_REQUIRED = True\nACCOUNT_UNIQUE_EMAIL = True\nSOCIALACCOUNT_PROVIDERS = {\n    'google': {\n        'APP': {\n            'client_id': '982256397195-1u55e0osv3gbdfh0lmnrmf74et4e35h8.apps.googleusercontent.com',\n            'secret': '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',\n        },",
+        "detail": "eBuy.eBuy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SOCIALACCOUNT_AUTO_SIGNUP",
+        "kind": 5,
+        "importPath": "eBuy.eBuy.settings",
+        "description": "eBuy.eBuy.settings",
+        "peekOfCode": "SOCIALACCOUNT_AUTO_SIGNUP = True\nACCOUNT_EMAIL_REQUIRED = True\nACCOUNT_UNIQUE_EMAIL = True\nSOCIALACCOUNT_PROVIDERS = {\n    'google': {\n        'APP': {\n            'client_id': '982256397195-1u55e0osv3gbdfh0lmnrmf74et4e35h8.apps.googleusercontent.com',\n            'secret': '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',\n        },\n        'AUTH_PARAMS': {",
+        "detail": "eBuy.eBuy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ACCOUNT_EMAIL_REQUIRED",
+        "kind": 5,
+        "importPath": "eBuy.eBuy.settings",
+        "description": "eBuy.eBuy.settings",
+        "peekOfCode": "ACCOUNT_EMAIL_REQUIRED = True\nACCOUNT_UNIQUE_EMAIL = True\nSOCIALACCOUNT_PROVIDERS = {\n    'google': {\n        'APP': {\n            'client_id': '982256397195-1u55e0osv3gbdfh0lmnrmf74et4e35h8.apps.googleusercontent.com',\n            'secret': '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',\n        },\n        'AUTH_PARAMS': {\n            'access_type': 'online',",
+        "detail": "eBuy.eBuy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ACCOUNT_UNIQUE_EMAIL",
+        "kind": 5,
+        "importPath": "eBuy.eBuy.settings",
+        "description": "eBuy.eBuy.settings",
+        "peekOfCode": "ACCOUNT_UNIQUE_EMAIL = True\nSOCIALACCOUNT_PROVIDERS = {\n    'google': {\n        'APP': {\n            'client_id': '982256397195-1u55e0osv3gbdfh0lmnrmf74et4e35h8.apps.googleusercontent.com',\n            'secret': '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',\n        },\n        'AUTH_PARAMS': {\n            'access_type': 'online',\n            'prompt': 'select_account'   # Force Google to ask account every time",
+        "detail": "eBuy.eBuy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SOCIALACCOUNT_PROVIDERS",
+        "kind": 5,
+        "importPath": "eBuy.eBuy.settings",
+        "description": "eBuy.eBuy.settings",
+        "peekOfCode": "SOCIALACCOUNT_PROVIDERS = {\n    'google': {\n        'APP': {\n            'client_id': '982256397195-1u55e0osv3gbdfh0lmnrmf74et4e35h8.apps.googleusercontent.com',\n            'secret': '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',\n        },\n        'AUTH_PARAMS': {\n            'access_type': 'online',\n            'prompt': 'select_account'   # Force Google to ask account every time\n        },",
         "detail": "eBuy.eBuy.settings",
         "documentation": {}
     },
@@ -278,7 +411,7 @@
         "kind": 5,
         "importPath": "eBuy.eBuy.settings",
         "description": "eBuy.eBuy.settings",
-        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'eBuy.urls'",
+        "peekOfCode": "MIDDLEWARE = [\n     'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',  # ← This must be above\n    'allauth.account.middleware.AccountMiddleware',              # ← Add this line\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]",
         "detail": "eBuy.eBuy.settings",
         "documentation": {}
     },
@@ -431,7 +564,7 @@
         "kind": 5,
         "importPath": "eBuy.eBuy.urls",
         "description": "eBuy.eBuy.urls",
-        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('',include('products.urls'),name='products')\n]\nif settings.DEBUG:\n    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('',include('products.urls'),name='products'),\n    path('accounts/',include('allauth.urls'),name='accounts'),\n    ]\nif settings.DEBUG:\n    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)",
         "detail": "eBuy.eBuy.urls",
         "documentation": {}
     },
@@ -469,6 +602,15 @@
         "description": "eBuy.products.migrations.0003_remove_products_image1_remove_products_image2_and_more",
         "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('products', '0002_rename_images_products_image_products_image1_and_more'),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name='products',\n            name='image1',\n        ),\n        migrations.RemoveField(",
         "detail": "eBuy.products.migrations.0003_remove_products_image1_remove_products_image2_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "eBuy.products.migrations.0004_alter_products_category",
+        "description": "eBuy.products.migrations.0004_alter_products_category",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('products', '0003_remove_products_image1_remove_products_image2_and_more'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='products',\n            name='category',\n            field=models.CharField(choices=[('Education', 'Education'), ('Electrics', 'Electrics'), ('Midecine', 'Medicine'), ('Fashion', 'Fashion'), ('Grocery', 'Grocery'), ('Kids', 'Kids'), ('Sport', 'Sport'), ('Beauty', 'Beauty'), ('Wearing', 'Wearing'), ('Religious', 'Religious'), ('Fruits', 'Fruits'), ('Vegetables', 'Vegetables'), ('Household', 'Household'), ('Toys', 'Toys'), ('Pet', 'Pet'), ('Books', 'Books'), ('Stationary', 'Stationary'), ('Furniture', 'Furniture'), ('Tools', 'Tools'), ('Automotive', 'Automotive'), ('Garden', 'Garden')]),\n        ),",
+        "detail": "eBuy.products.migrations.0004_alter_products_category",
         "documentation": {}
     },
     {
@@ -521,7 +663,7 @@
         "kind": 5,
         "importPath": "eBuy.products.urls",
         "description": "eBuy.products.urls",
-        "peekOfCode": "urlpatterns = [\n  path('', views.productsView, name='productsView'),\n  path('product/<int:id>/', views.product_detail, name='product_detail'),\n  path('product/<str:category>/', views.category_all_products, name='categories_all_products'),\n]",
+        "peekOfCode": "urlpatterns = [\n  path('', views.productsView, name='home'),\n  path('product/<int:id>/', views.product_detail, name='product_detail'),\n  path('product/<str:category>/', views.category_all_products, name='categories_all_products'),\n]",
         "detail": "eBuy.products.urls",
         "documentation": {}
     },
