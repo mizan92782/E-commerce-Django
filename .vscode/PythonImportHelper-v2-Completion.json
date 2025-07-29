@@ -16,6 +16,30 @@
         "documentation": {}
     },
     {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
         "label": "models",
         "importPath": "django.db",
         "description": "django.db",
@@ -56,7 +80,40 @@
         "documentation": {}
     },
     {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "Users.models",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "Users.models",
+        "description": "Users.models",
+        "detail": "Users.models",
+        "documentation": {}
+    },
+    {
+        "label": "CustomUser",
+        "importPath": "Users.models",
+        "description": "Users.models",
+        "isExtraImport": true,
+        "detail": "Users.models",
+        "documentation": {}
+    },
+    {
         "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
         "importPath": "django.contrib",
         "description": "django.contrib",
         "isExtraImport": true,
@@ -120,14 +177,6 @@
         "documentation": {}
     },
     {
-        "label": "User",
-        "importPath": "django.contrib.auth.models",
-        "description": "django.contrib.auth.models",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth.models",
-        "documentation": {}
-    },
-    {
         "label": "TestCase",
         "importPath": "django.test",
         "description": "django.test",
@@ -145,6 +194,14 @@
     },
     {
         "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "reverse",
         "importPath": "django.urls",
         "description": "django.urls",
         "isExtraImport": true,
@@ -176,22 +233,6 @@
         "documentation": {}
     },
     {
-        "label": "LogoutView",
-        "importPath": "django.contrib.auth.views",
-        "description": "django.contrib.auth.views",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth.views",
-        "documentation": {}
-    },
-    {
-        "label": "render",
-        "importPath": "django.shortcuts",
-        "description": "django.shortcuts",
-        "isExtraImport": true,
-        "detail": "django.shortcuts",
-        "documentation": {}
-    },
-    {
         "label": "render",
         "importPath": "django.shortcuts",
         "description": "django.shortcuts",
@@ -216,6 +257,14 @@
         "documentation": {}
     },
     {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
         "label": "get_object_or_404",
         "importPath": "django.shortcuts",
         "description": "django.shortcuts",
@@ -232,51 +281,91 @@
         "documentation": {}
     },
     {
-        "label": "default_token_generator",
-        "importPath": "django.contrib.auth.tokens",
-        "description": "django.contrib.auth.tokens",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth.tokens",
-        "documentation": {}
-    },
-    {
-        "label": "default_token_generator",
-        "importPath": "django.contrib.auth.tokens",
-        "description": "django.contrib.auth.tokens",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth.tokens",
-        "documentation": {}
-    },
-    {
-        "label": "send_mail",
-        "importPath": "django.core.mail",
-        "description": "django.core.mail",
-        "isExtraImport": true,
-        "detail": "django.core.mail",
-        "documentation": {}
-    },
-    {
-        "label": "settings",
-        "importPath": "django.conf",
-        "description": "django.conf",
-        "isExtraImport": true,
-        "detail": "django.conf",
-        "documentation": {}
-    },
-    {
-        "label": "settings",
-        "importPath": "django.conf",
-        "description": "django.conf",
-        "isExtraImport": true,
-        "detail": "django.conf",
-        "documentation": {}
-    },
-    {
         "label": "login",
         "importPath": "django.contrib.auth",
         "description": "django.contrib.auth",
         "isExtraImport": true,
         "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "authenticate",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_backends",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "default_token_generator",
+        "importPath": "django.contrib.auth.tokens",
+        "description": "django.contrib.auth.tokens",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.tokens",
+        "documentation": {}
+    },
+    {
+        "label": "urlsafe_base64_encode",
+        "importPath": "django.utils.http",
+        "description": "django.utils.http",
+        "isExtraImport": true,
+        "detail": "django.utils.http",
+        "documentation": {}
+    },
+    {
+        "label": "urlsafe_base64_decode",
+        "importPath": "django.utils.http",
+        "description": "django.utils.http",
+        "isExtraImport": true,
+        "detail": "django.utils.http",
+        "documentation": {}
+    },
+    {
+        "label": "force_bytes",
+        "importPath": "django.utils.encoding",
+        "description": "django.utils.encoding",
+        "isExtraImport": true,
+        "detail": "django.utils.encoding",
+        "documentation": {}
+    },
+    {
+        "label": "force_str",
+        "importPath": "django.utils.encoding",
+        "description": "django.utils.encoding",
+        "isExtraImport": true,
+        "detail": "django.utils.encoding",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_site",
+        "importPath": "django.contrib.sites.shortcuts",
+        "description": "django.contrib.sites.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.contrib.sites.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render_to_string",
+        "importPath": "django.template.loader",
+        "description": "django.template.loader",
+        "isExtraImport": true,
+        "detail": "django.template.loader",
+        "documentation": {}
+    },
+    {
+        "label": "EmailMessage",
+        "importPath": "django.core.mail",
+        "description": "django.core.mail",
+        "isExtraImport": true,
+        "detail": "django.core.mail",
         "documentation": {}
     },
     {
@@ -321,11 +410,36 @@
         "documentation": {}
     },
     {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
         "label": "get_wsgi_application",
         "importPath": "django.core.wsgi",
         "description": "django.core.wsgi",
         "isExtraImport": true,
         "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "django.utils.timezone",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.utils.timezone",
+        "description": "django.utils.timezone",
+        "detail": "django.utils.timezone",
+        "documentation": {}
+    },
+    {
+        "label": "now",
+        "importPath": "django.utils.timezone",
+        "description": "django.utils.timezone",
+        "isExtraImport": true,
+        "detail": "django.utils.timezone",
         "documentation": {}
     },
     {
@@ -335,22 +449,6 @@
         "importPath": "products.models",
         "description": "products.models",
         "detail": "products.models",
-        "documentation": {}
-    },
-    {
-        "label": "CustomUser",
-        "importPath": "customerApp.models",
-        "description": "customerApp.models",
-        "isExtraImport": true,
-        "detail": "customerApp.models",
-        "documentation": {}
-    },
-    {
-        "label": "CustomUserManager",
-        "importPath": "customerApp.models",
-        "description": "customerApp.models",
-        "isExtraImport": true,
-        "detail": "customerApp.models",
         "documentation": {}
     },
     {
@@ -365,64 +463,100 @@
     {
         "label": "Migration",
         "kind": 6,
-        "importPath": "eBuy.customerApp.migrations.0001_initial",
-        "description": "eBuy.customerApp.migrations.0001_initial",
+        "importPath": "eBuy.Users.migrations.0001_initial",
+        "description": "eBuy.Users.migrations.0001_initial",
         "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('auth', '0012_alter_user_first_name_max_length'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='CustomUser',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
-        "detail": "eBuy.customerApp.migrations.0001_initial",
+        "detail": "eBuy.Users.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "eBuy.Users.migrations.0002_remove_customuser_is_staff",
+        "description": "eBuy.Users.migrations.0002_remove_customuser_is_staff",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('Users', '0001_initial'),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name='customuser',\n            name='is_staff',\n        ),\n    ]",
+        "detail": "eBuy.Users.migrations.0002_remove_customuser_is_staff",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "eBuy.Users.migrations.0003_customuser_is_staff",
+        "description": "eBuy.Users.migrations.0003_customuser_is_staff",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('Users', '0002_remove_customuser_is_staff'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='customuser',\n            name='is_staff',\n            field=models.BooleanField(default=False),\n        ),",
+        "detail": "eBuy.Users.migrations.0003_customuser_is_staff",
+        "documentation": {}
+    },
+    {
+        "label": "CustomerAdmin",
+        "kind": 6,
+        "importPath": "eBuy.Users.admin",
+        "description": "eBuy.Users.admin",
+        "peekOfCode": "class CustomerAdmin(admin.ModelAdmin):\n    list_display = ('email', 'first_name', 'last_name', 'is_active',)\n    search_fields = ('email', 'first_name', 'last_name')\n    list_filter = ('is_active', )\n    ordering = ('email',)",
+        "detail": "eBuy.Users.admin",
         "documentation": {}
     },
     {
         "label": "CustomerappConfig",
         "kind": 6,
-        "importPath": "eBuy.customerApp.apps",
-        "description": "eBuy.customerApp.apps",
-        "peekOfCode": "class CustomerappConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'customerApp'",
-        "detail": "eBuy.customerApp.apps",
+        "importPath": "eBuy.Users.apps",
+        "description": "eBuy.Users.apps",
+        "peekOfCode": "class CustomerappConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'Users'",
+        "detail": "eBuy.Users.apps",
         "documentation": {}
     },
     {
         "label": "CustomUserManager",
         "kind": 6,
-        "importPath": "eBuy.customerApp.models",
-        "description": "eBuy.customerApp.models",
-        "peekOfCode": "class CustomUserManager(BaseUserManager):\n    def create_user(self, email, first_name, last_name, contact_number, address, password=None):\n        if not email:\n            raise ValueError(\"Users must have an email address\")\n        email = self.normalize_email(email)\n        user = self.model(email=email, first_name=first_name, last_name=last_name,\n                          contact_number=contact_number, address=address)\n        user.set_password(password)\n        user.is_active = False  # Until email verification\n        user.save(using=self._db)",
-        "detail": "eBuy.customerApp.models",
+        "importPath": "eBuy.Users.models",
+        "description": "eBuy.Users.models",
+        "peekOfCode": "class CustomUserManager(BaseUserManager):\n    def create_user(self, email, password=None, **extra_fields):\n        if not email:\n            raise ValueError(\"Users must have an email address\")\n        email = self.normalize_email(email)\n        user = self.model(email=email, **extra_fields)\n        user.set_password(password)\n        user.is_active = True \n        user.is_staff=True\n        # Until email verification",
+        "detail": "eBuy.Users.models",
         "documentation": {}
     },
     {
         "label": "CustomUser",
         "kind": 6,
-        "importPath": "eBuy.customerApp.models",
-        "description": "eBuy.customerApp.models",
-        "peekOfCode": "class CustomUser(AbstractBaseUser, PermissionsMixin):\n    email = models.EmailField(unique=True)\n    first_name = models.CharField(max_length=100)\n    last_name = models.CharField(max_length=100)\n    contact_number = models.CharField(max_length=15)\n    address = models.TextField()\n    is_active = models.BooleanField(default=False)\n    is_staff = models.BooleanField(default=False)\n    objects = CustomUserManager()\n    USERNAME_FIELD = 'email'",
-        "detail": "eBuy.customerApp.models",
+        "importPath": "eBuy.Users.models",
+        "description": "eBuy.Users.models",
+        "peekOfCode": "class CustomUser(AbstractBaseUser, PermissionsMixin):\n    email = models.EmailField(unique=True)\n    first_name = models.CharField(max_length=100)\n    last_name = models.CharField(max_length=100)\n    contact_number = models.CharField(max_length=15)\n    address = models.TextField()\n    is_active = models.BooleanField(default=False)\n    is_staff = models.BooleanField(default=False)  #\n    objects = CustomUserManager()\n    USERNAME_FIELD = 'email'",
+        "detail": "eBuy.Users.models",
         "documentation": {}
     },
     {
         "label": "urlpatterns",
         "kind": 5,
-        "importPath": "eBuy.customerApp.urls",
-        "description": "eBuy.customerApp.urls",
-        "peekOfCode": "urlpatterns = [\n    path('verify/<int:uid>/<str:token>/', verify_email, name='verify_email'),\n    path('', lambda request: render(request, 'home.html'), name='home'),\n    path('logout/', LogoutView.as_view(), name='logout'),\n]",
-        "detail": "eBuy.customerApp.urls",
+        "importPath": "eBuy.Users.urls",
+        "description": "eBuy.Users.urls",
+        "peekOfCode": "urlpatterns = [\n     path('activate/<uidb64>/<token>/', views.activate_account, name='activate'),\n    path('login_profile/',views.login_profile_view, name='login_profile'),\n    path('register/',views.signup_view, name='signup'),\n]",
+        "detail": "eBuy.Users.urls",
         "documentation": {}
     },
     {
-        "label": "send_verification_email",
+        "label": "login_profile_view",
         "kind": 2,
-        "importPath": "eBuy.customerApp.utils",
-        "description": "eBuy.customerApp.utils",
-        "peekOfCode": "def send_verification_email(request, user):\n    from django.urls import reverse\n    token = default_token_generator.make_token(user)\n    uid = user.pk\n    verify_link = request.build_absolute_uri(reverse(\"verify_email\", args=[uid, token]))\n    subject = \"Verify Your Email\"\n    message = f\"Click to verify: {verify_link}\"\n    send_mail(subject, message, settings.DEFAULT_FROM_EMAIL, [user.email])",
-        "detail": "eBuy.customerApp.utils",
+        "importPath": "eBuy.Users.views",
+        "description": "eBuy.Users.views",
+        "peekOfCode": "def login_profile_view(request):\n    if request.user.is_authenticated:\n        return render(request, 'User/profile.html')  # Show profile if already logged in\n    if request.method == 'POST':\n        # Get login credentials from form\n        email = request.POST.get('username')\n        password = request.POST.get('password')\n        # Authenticate user using custom user model (USERNAME_FIELD = 'email')\n        user = authenticate(request, username=email, password=password)\n        if user:",
+        "detail": "eBuy.Users.views",
         "documentation": {}
     },
     {
-        "label": "verify_email",
+        "label": "activate_account",
         "kind": 2,
-        "importPath": "eBuy.customerApp.views",
-        "description": "eBuy.customerApp.views",
-        "peekOfCode": "def verify_email(request, uid, token):\n    user = CustomUser.objects.get(pk=uid)\n    if default_token_generator.check_token(user, token):\n        user.is_active = True\n        user.save()\n        login(request, user)\n        return redirect('products/home')\n    return render(request, 'email_invalid.html')",
-        "detail": "eBuy.customerApp.views",
+        "importPath": "eBuy.Users.views",
+        "description": "eBuy.Users.views",
+        "peekOfCode": "def activate_account(request, uidb64, token):\n    try:\n        # Decode user ID from base64\n        uid = force_str(urlsafe_base64_decode(uidb64))\n        user = CustomUser.objects.get(pk=uid)\n    except:\n        user = None\n    # Verify token and activate the user\n    if user and default_token_generator.check_token(user, token):\n        user.is_active = True",
+        "detail": "eBuy.Users.views",
+        "documentation": {}
+    },
+    {
+        "label": "signup_view",
+        "kind": 2,
+        "importPath": "eBuy.Users.views",
+        "description": "eBuy.Users.views",
+        "peekOfCode": "def signup_view(request):\n    if request.method == \"POST\":\n        # Extract data from form\n        email = request.POST['email']\n        password = request.POST['password']\n        first_name = request.POST['first_name']\n        last_name = request.POST['last_name']\n        contact_number = request.POST['contact_number']\n        address = request.POST['address']\n        # Prevent duplicate email signup",
+        "detail": "eBuy.Users.views",
         "documentation": {}
     },
     {
@@ -475,7 +609,7 @@
         "kind": 5,
         "importPath": "eBuy.eBuy.settings",
         "description": "eBuy.eBuy.settings",
-        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'products',\n    'customerApp',\n    # Allauth apps",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'products',\n    'Users',\n    # Allauth apps",
         "detail": "eBuy.eBuy.settings",
         "documentation": {}
     },
@@ -484,7 +618,7 @@
         "kind": 5,
         "importPath": "eBuy.eBuy.settings",
         "description": "eBuy.eBuy.settings",
-        "peekOfCode": "AUTHENTICATION_BACKENDS = [\n    'django.contrib.auth.backends.ModelBackend',          # Default\n    'allauth.account.auth_backends.AuthenticationBackend' # Allauth\n]\nAUTHENTICATION_BACKENDS = [\n    'django.contrib.auth.backends.ModelBackend',          # Default\n    'allauth.account.auth_backends.AuthenticationBackend' # Allauth\n]\n# settings.py\nAUTH_USER_MODEL = 'customerApp.CustomUser'",
+        "peekOfCode": "AUTHENTICATION_BACKENDS = [\n    'django.contrib.auth.backends.ModelBackend',          # Default\n    'allauth.account.auth_backends.AuthenticationBackend' # Allauth\n]\nAUTHENTICATION_BACKENDS = [\n    'django.contrib.auth.backends.ModelBackend',          # Default\n    'allauth.account.auth_backends.AuthenticationBackend' # Allauth\n]\n#! for custom user model\nAUTH_USER_MODEL = 'Users.CustomUser'",
         "detail": "eBuy.eBuy.settings",
         "documentation": {}
     },
@@ -493,7 +627,7 @@
         "kind": 5,
         "importPath": "eBuy.eBuy.settings",
         "description": "eBuy.eBuy.settings",
-        "peekOfCode": "AUTHENTICATION_BACKENDS = [\n    'django.contrib.auth.backends.ModelBackend',          # Default\n    'allauth.account.auth_backends.AuthenticationBackend' # Allauth\n]\n# settings.py\nAUTH_USER_MODEL = 'customerApp.CustomUser'\nACCOUNT_AUTHENTICATION_METHOD = 'email'\nACCOUNT_EMAIL_REQUIRED = True\nACCOUNT_USERNAME_REQUIRED = False\nACCOUNT_USER_MODEL_USERNAME_FIELD = None",
+        "peekOfCode": "AUTHENTICATION_BACKENDS = [\n    'django.contrib.auth.backends.ModelBackend',          # Default\n    'allauth.account.auth_backends.AuthenticationBackend' # Allauth\n]\n#! for custom user model\nAUTH_USER_MODEL = 'Users.CustomUser'\n# Allauth settings\nACCOUNT_AUTHENTICATION_METHOD = 'email'\nACCOUNT_EMAIL_REQUIRED = True\nACCOUNT_USERNAME_REQUIRED = False",
         "detail": "eBuy.eBuy.settings",
         "documentation": {}
     },
@@ -502,7 +636,7 @@
         "kind": 5,
         "importPath": "eBuy.eBuy.settings",
         "description": "eBuy.eBuy.settings",
-        "peekOfCode": "AUTH_USER_MODEL = 'customerApp.CustomUser'\nACCOUNT_AUTHENTICATION_METHOD = 'email'\nACCOUNT_EMAIL_REQUIRED = True\nACCOUNT_USERNAME_REQUIRED = False\nACCOUNT_USER_MODEL_USERNAME_FIELD = None\nACCOUNT_EMAIL_VERIFICATION = \"mandatory\"\nACCOUNT_CONFIRM_EMAIL_ON_GET = True\nLOGIN_REDIRECT_URL = 'home'\nLOGOUT_REDIRECT_URL = 'login'\nfrom decouple import config",
+        "peekOfCode": "AUTH_USER_MODEL = 'Users.CustomUser'\n# Allauth settings\nACCOUNT_AUTHENTICATION_METHOD = 'email'\nACCOUNT_EMAIL_REQUIRED = True\nACCOUNT_USERNAME_REQUIRED = False\nACCOUNT_USER_MODEL_USERNAME_FIELD = None\nACCOUNT_EMAIL_VERIFICATION = \"mandatory\"\nACCOUNT_CONFIRM_EMAIL_ON_GET = True\nLOGIN_REDIRECT_URL = 'home'  # Redirect after login\nLOGOUT_REDIRECT_URL = 'home'  # Redirect after logout",
         "detail": "eBuy.eBuy.settings",
         "documentation": {}
     },
@@ -511,7 +645,7 @@
         "kind": 5,
         "importPath": "eBuy.eBuy.settings",
         "description": "eBuy.eBuy.settings",
-        "peekOfCode": "ACCOUNT_AUTHENTICATION_METHOD = 'email'\nACCOUNT_EMAIL_REQUIRED = True\nACCOUNT_USERNAME_REQUIRED = False\nACCOUNT_USER_MODEL_USERNAME_FIELD = None\nACCOUNT_EMAIL_VERIFICATION = \"mandatory\"\nACCOUNT_CONFIRM_EMAIL_ON_GET = True\nLOGIN_REDIRECT_URL = 'home'\nLOGOUT_REDIRECT_URL = 'login'\nfrom decouple import config\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'",
+        "peekOfCode": "ACCOUNT_AUTHENTICATION_METHOD = 'email'\nACCOUNT_EMAIL_REQUIRED = True\nACCOUNT_USERNAME_REQUIRED = False\nACCOUNT_USER_MODEL_USERNAME_FIELD = None\nACCOUNT_EMAIL_VERIFICATION = \"mandatory\"\nACCOUNT_CONFIRM_EMAIL_ON_GET = True\nLOGIN_REDIRECT_URL = 'home'  # Redirect after login\nLOGOUT_REDIRECT_URL = 'home'  # Redirect after logout\nfrom decouple import config\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'",
         "detail": "eBuy.eBuy.settings",
         "documentation": {}
     },
@@ -520,7 +654,7 @@
         "kind": 5,
         "importPath": "eBuy.eBuy.settings",
         "description": "eBuy.eBuy.settings",
-        "peekOfCode": "ACCOUNT_EMAIL_REQUIRED = True\nACCOUNT_USERNAME_REQUIRED = False\nACCOUNT_USER_MODEL_USERNAME_FIELD = None\nACCOUNT_EMAIL_VERIFICATION = \"mandatory\"\nACCOUNT_CONFIRM_EMAIL_ON_GET = True\nLOGIN_REDIRECT_URL = 'home'\nLOGOUT_REDIRECT_URL = 'login'\nfrom decouple import config\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'",
+        "peekOfCode": "ACCOUNT_EMAIL_REQUIRED = True\nACCOUNT_USERNAME_REQUIRED = False\nACCOUNT_USER_MODEL_USERNAME_FIELD = None\nACCOUNT_EMAIL_VERIFICATION = \"mandatory\"\nACCOUNT_CONFIRM_EMAIL_ON_GET = True\nLOGIN_REDIRECT_URL = 'home'  # Redirect after login\nLOGOUT_REDIRECT_URL = 'home'  # Redirect after logout\nfrom decouple import config\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'",
         "detail": "eBuy.eBuy.settings",
         "documentation": {}
     },
@@ -529,7 +663,7 @@
         "kind": 5,
         "importPath": "eBuy.eBuy.settings",
         "description": "eBuy.eBuy.settings",
-        "peekOfCode": "ACCOUNT_USERNAME_REQUIRED = False\nACCOUNT_USER_MODEL_USERNAME_FIELD = None\nACCOUNT_EMAIL_VERIFICATION = \"mandatory\"\nACCOUNT_CONFIRM_EMAIL_ON_GET = True\nLOGIN_REDIRECT_URL = 'home'\nLOGOUT_REDIRECT_URL = 'login'\nfrom decouple import config\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587",
+        "peekOfCode": "ACCOUNT_USERNAME_REQUIRED = False\nACCOUNT_USER_MODEL_USERNAME_FIELD = None\nACCOUNT_EMAIL_VERIFICATION = \"mandatory\"\nACCOUNT_CONFIRM_EMAIL_ON_GET = True\nLOGIN_REDIRECT_URL = 'home'  # Redirect after login\nLOGOUT_REDIRECT_URL = 'home'  # Redirect after logout\nfrom decouple import config\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587",
         "detail": "eBuy.eBuy.settings",
         "documentation": {}
     },
@@ -538,7 +672,7 @@
         "kind": 5,
         "importPath": "eBuy.eBuy.settings",
         "description": "eBuy.eBuy.settings",
-        "peekOfCode": "ACCOUNT_USER_MODEL_USERNAME_FIELD = None\nACCOUNT_EMAIL_VERIFICATION = \"mandatory\"\nACCOUNT_CONFIRM_EMAIL_ON_GET = True\nLOGIN_REDIRECT_URL = 'home'\nLOGOUT_REDIRECT_URL = 'login'\nfrom decouple import config\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587\nEMAIL_HOST_USER = config('EMAIL_HOST_USER')",
+        "peekOfCode": "ACCOUNT_USER_MODEL_USERNAME_FIELD = None\nACCOUNT_EMAIL_VERIFICATION = \"mandatory\"\nACCOUNT_CONFIRM_EMAIL_ON_GET = True\nLOGIN_REDIRECT_URL = 'home'  # Redirect after login\nLOGOUT_REDIRECT_URL = 'home'  # Redirect after logout\nfrom decouple import config\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587\nEMAIL_HOST_USER = config('EMAIL_HOST_USER')",
         "detail": "eBuy.eBuy.settings",
         "documentation": {}
     },
@@ -547,7 +681,7 @@
         "kind": 5,
         "importPath": "eBuy.eBuy.settings",
         "description": "eBuy.eBuy.settings",
-        "peekOfCode": "ACCOUNT_EMAIL_VERIFICATION = \"mandatory\"\nACCOUNT_CONFIRM_EMAIL_ON_GET = True\nLOGIN_REDIRECT_URL = 'home'\nLOGOUT_REDIRECT_URL = 'login'\nfrom decouple import config\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587\nEMAIL_HOST_USER = config('EMAIL_HOST_USER')\nEMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')",
+        "peekOfCode": "ACCOUNT_EMAIL_VERIFICATION = \"mandatory\"\nACCOUNT_CONFIRM_EMAIL_ON_GET = True\nLOGIN_REDIRECT_URL = 'home'  # Redirect after login\nLOGOUT_REDIRECT_URL = 'home'  # Redirect after logout\nfrom decouple import config\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587\nEMAIL_HOST_USER = config('EMAIL_HOST_USER')\nEMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')",
         "detail": "eBuy.eBuy.settings",
         "documentation": {}
     },
@@ -556,7 +690,7 @@
         "kind": 5,
         "importPath": "eBuy.eBuy.settings",
         "description": "eBuy.eBuy.settings",
-        "peekOfCode": "ACCOUNT_CONFIRM_EMAIL_ON_GET = True\nLOGIN_REDIRECT_URL = 'home'\nLOGOUT_REDIRECT_URL = 'login'\nfrom decouple import config\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587\nEMAIL_HOST_USER = config('EMAIL_HOST_USER')\nEMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')\nEMAIL_USE_TLS = True",
+        "peekOfCode": "ACCOUNT_CONFIRM_EMAIL_ON_GET = True\nLOGIN_REDIRECT_URL = 'home'  # Redirect after login\nLOGOUT_REDIRECT_URL = 'home'  # Redirect after logout\nfrom decouple import config\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587\nEMAIL_HOST_USER = config('EMAIL_HOST_USER')\nEMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')\nEMAIL_USE_TLS = True",
         "detail": "eBuy.eBuy.settings",
         "documentation": {}
     },
@@ -565,7 +699,7 @@
         "kind": 5,
         "importPath": "eBuy.eBuy.settings",
         "description": "eBuy.eBuy.settings",
-        "peekOfCode": "LOGIN_REDIRECT_URL = 'home'\nLOGOUT_REDIRECT_URL = 'login'\nfrom decouple import config\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587\nEMAIL_HOST_USER = config('EMAIL_HOST_USER')\nEMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')\nEMAIL_USE_TLS = True\nDEFAULT_FROM_EMAIL = config('EMAIL_HOST_USER')",
+        "peekOfCode": "LOGIN_REDIRECT_URL = 'home'  # Redirect after login\nLOGOUT_REDIRECT_URL = 'home'  # Redirect after logout\nfrom decouple import config\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587\nEMAIL_HOST_USER = config('EMAIL_HOST_USER')\nEMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')\nEMAIL_USE_TLS = True\nDEFAULT_FROM_EMAIL = config('EMAIL_HOST_USER')",
         "detail": "eBuy.eBuy.settings",
         "documentation": {}
     },
@@ -574,7 +708,7 @@
         "kind": 5,
         "importPath": "eBuy.eBuy.settings",
         "description": "eBuy.eBuy.settings",
-        "peekOfCode": "LOGOUT_REDIRECT_URL = 'login'\nfrom decouple import config\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587\nEMAIL_HOST_USER = config('EMAIL_HOST_USER')\nEMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')\nEMAIL_USE_TLS = True\nDEFAULT_FROM_EMAIL = config('EMAIL_HOST_USER')\nSOCIALACCOUNT_PROVIDERS = {",
+        "peekOfCode": "LOGOUT_REDIRECT_URL = 'home'  # Redirect after logout\nfrom decouple import config\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587\nEMAIL_HOST_USER = config('EMAIL_HOST_USER')\nEMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')\nEMAIL_USE_TLS = True\nDEFAULT_FROM_EMAIL = config('EMAIL_HOST_USER')\nSOCIALACCOUNT_PROVIDERS = {",
         "detail": "eBuy.eBuy.settings",
         "documentation": {}
     },
@@ -799,7 +933,7 @@
         "kind": 5,
         "importPath": "eBuy.eBuy.urls",
         "description": "eBuy.eBuy.urls",
-        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('product',include('products.urls'),name='products'),\n    path('', include('customerApp.urls')),\n    path('accounts/',include('allauth.urls'),name='accounts'),\n    ]\nif settings.DEBUG:\n    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('product/',include('products.urls'),name='products'),\n    path('user/', include('Users.urls')),\n    path('accounts/',include('allauth.urls')),\n    ]\nif settings.DEBUG:\n    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)",
         "detail": "eBuy.eBuy.urls",
         "documentation": {}
     },
@@ -826,16 +960,16 @@
         "kind": 6,
         "importPath": "eBuy.products.admin",
         "description": "eBuy.products.admin",
-        "peekOfCode": "class ProductsAdmin(admin.ModelAdmin):\n    list_display = ('id','title', 'price', 'count', 'category')  # Fields to display in the admin list view\n    def save_model(self, request, obj, form, change):\n        if not change:  # only set on create, not update\n            obj.owner = request.user\n        super().save_model(request, obj, form, change)",
+        "peekOfCode": "class ProductsAdmin(admin.ModelAdmin):\n    list_display = ('id','title', 'category', 'price','amount_sold', 'created_at','updated_at')\n    search_fields = ('name', 'category')\n    list_filter = ('category', 'created_at')\n    ordering = ('-price',)\n    readonly_fields = ('created_at', 'updated_at','amount_sold')",
         "detail": "eBuy.products.admin",
         "documentation": {}
     },
     {
-        "label": "PorductsConfig",
+        "label": "ProductsConfig",
         "kind": 6,
         "importPath": "eBuy.products.apps",
         "description": "eBuy.products.apps",
-        "peekOfCode": "class PorductsConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'products'",
+        "peekOfCode": "class ProductsConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'products'",
         "detail": "eBuy.products.apps",
         "documentation": {}
     },
@@ -853,7 +987,7 @@
         "kind": 6,
         "importPath": "eBuy.products.models",
         "description": "eBuy.products.models",
-        "peekOfCode": "class Products(models.Model):\n   title = models.CharField(max_length=50)\n   description = models.TextField(max_length=5000)\n   price =models.IntegerField()\n   count= models.IntegerField(default=0)\n   category = models.CharField(choices=product_category)\n   image=models.FileField(upload_to=products_image)\n   def __str__(self):\n        return self.title",
+        "peekOfCode": "class Products(models.Model):\n    title = models.CharField(max_length=50)\n    description = models.TextField(max_length=5000)\n    price = models.IntegerField()\n    measure = models.CharField(max_length=50,default='kg')\n    amount_sold = models.IntegerField(default=0)\n    category = models.CharField(max_length=50, choices=product_category)\n    image = models.FileField(upload_to=products_image)\n    created_at = models.DateTimeField(default=now)\n    updated_at = models.DateTimeField(auto_now=True)",
         "detail": "eBuy.products.models",
         "documentation": {}
     },
@@ -862,7 +996,16 @@
         "kind": 2,
         "importPath": "eBuy.products.models",
         "description": "eBuy.products.models",
-        "peekOfCode": "def products_image(instance, filename):\n  return 'users/{0}/{1}/{2}'.format(instance.owner.username, instance.title, filename)\nclass Products(models.Model):\n   title = models.CharField(max_length=50)\n   description = models.TextField(max_length=5000)\n   price =models.IntegerField()\n   count= models.IntegerField(default=0)\n   category = models.CharField(choices=product_category)\n   image=models.FileField(upload_to=products_image)\n   def __str__(self):",
+        "peekOfCode": "def products_image(instance, filename):\n    return f'{instance.category}/{instance.title}/{filename}'\nclass Products(models.Model):\n    title = models.CharField(max_length=50)\n    description = models.TextField(max_length=5000)\n    price = models.IntegerField()\n    measure = models.CharField(max_length=50,default='kg')\n    amount_sold = models.IntegerField(default=0)\n    category = models.CharField(max_length=50, choices=product_category)\n    image = models.FileField(upload_to=products_image)",
+        "detail": "eBuy.products.models",
+        "documentation": {}
+    },
+    {
+        "label": "product_category",
+        "kind": 5,
+        "importPath": "eBuy.products.models",
+        "description": "eBuy.products.models",
+        "peekOfCode": "product_category = [\n    ('Education', \"Education\"),\n    ('Electrics', \"Electrics\"),\n    ('Midecine', \"Medicine\"),\n    ('Fashion', \"Fashion\"),\n    ('Grocery', \"Grocery\"),\n    ('Kids', 'Kids'),\n    ('Sport', 'Sport'),\n    ('Beauty', 'Beauty'),\n    ('Wearing', 'Wearing'),",
         "detail": "eBuy.products.models",
         "documentation": {}
     },
@@ -871,7 +1014,7 @@
         "kind": 5,
         "importPath": "eBuy.products.urls",
         "description": "eBuy.products.urls",
-        "peekOfCode": "urlpatterns = [\n  path('', views.productsView, name='home'),\n  path('product/<int:id>/', views.product_detail, name='product_detail'),\n  path('product/<str:category>/', views.category_all_products, name='categories_all_products'),\n]",
+        "peekOfCode": "urlpatterns = [\n  path('', views.productsView, name='home'),\n  path('product/<int:id>/', views.product_detail, name='product_detail'),\n  path('product/<str:category>/', views.product_by_category, name='products_by_category'),\n]",
         "detail": "eBuy.products.urls",
         "documentation": {}
     },
@@ -880,7 +1023,7 @@
         "kind": 2,
         "importPath": "eBuy.products.views",
         "description": "eBuy.products.views",
-        "peekOfCode": "def productsView(request):\n  products = Products.objects.all()\n  context= {\n      'products': products,\n  }\n  return render(request, 'products/home.html',context)\ndef product_detail(request, id):\n    product = get_object_or_404(Products, id=id)\n    return render(request, 'products/detail.html', {'product': product})\ndef category_all_products(request, category):",
+        "peekOfCode": "def productsView(request):\n  products = Products.objects.all()\n  context= {\n      'products': products,\n  }\n  return render(request, 'products/home.html',context)\ndef product_detail(request, id):\n    product = get_object_or_404(Products, id=id)\n    return render(request, 'products/detail.html', {'product': product})\ndef product_by_category(request, category):",
         "detail": "eBuy.products.views",
         "documentation": {}
     },
@@ -889,16 +1032,16 @@
         "kind": 2,
         "importPath": "eBuy.products.views",
         "description": "eBuy.products.views",
-        "peekOfCode": "def product_detail(request, id):\n    product = get_object_or_404(Products, id=id)\n    return render(request, 'products/detail.html', {'product': product})\ndef category_all_products(request, category):\n    products = Products.objects.filter(category=category)\n    return render(request, 'products/home.html', {\n        'products': products,\n        'selected_category': category\n    })",
+        "peekOfCode": "def product_detail(request, id):\n    product = get_object_or_404(Products, id=id)\n    return render(request, 'products/detail.html', {'product': product})\ndef product_by_category(request, category):\n    products = Products.objects.filter(category=category)\n    return render(request, 'products/home.html', {\n        'products': products,\n        'selected_category': category\n    })",
         "detail": "eBuy.products.views",
         "documentation": {}
     },
     {
-        "label": "category_all_products",
+        "label": "product_by_category",
         "kind": 2,
         "importPath": "eBuy.products.views",
         "description": "eBuy.products.views",
-        "peekOfCode": "def category_all_products(request, category):\n    products = Products.objects.filter(category=category)\n    return render(request, 'products/home.html', {\n        'products': products,\n        'selected_category': category\n    })",
+        "peekOfCode": "def product_by_category(request, category):\n    products = Products.objects.filter(category=category)\n    return render(request, 'products/home.html', {\n        'products': products,\n        'selected_category': category\n    })",
         "detail": "eBuy.products.views",
         "documentation": {}
     },

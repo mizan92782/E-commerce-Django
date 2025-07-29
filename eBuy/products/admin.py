@@ -1,15 +1,14 @@
 from django.contrib import admin
-from .models import Products  # Import the Products model
+from .models import Products
 
 # Register your models here.
 
-@admin.register(Products)
 
+@admin.register(Products)
 class ProductsAdmin(admin.ModelAdmin):
-    list_display = ('id','title', 'price', 'count', 'category')  # Fields to display in the admin list view
+    list_display = ('id','title', 'category', 'price','amount_sold', 'created_at','updated_at')
+    search_fields = ('name', 'category')
+    list_filter = ('category', 'created_at')
+    ordering = ('-price',)
+    readonly_fields = ('created_at', 'updated_at','amount_sold')  
     
-    
-    def save_model(self, request, obj, form, change):
-        if not change:  # only set on create, not update
-            obj.owner = request.user
-        super().save_model(request, obj, form, change)

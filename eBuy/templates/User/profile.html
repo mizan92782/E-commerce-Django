@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+</head>
+<body>
+    
+    {%if user.is_authenticated%}
+    <h1>Welcome, {{ request.user.first_name}}!</h1>
+    <h1> super user: {{  request.user.is_superuser }}</h1>
+    <h2>Welcome, {{ user.first_name }}!</h2>
+    <p>Email: {{ user.email }}</p>
+    <p>Contact Number: {{ user.contact_number }}</p>
+    <p>Address: {{ user.address }}</p>
+
+    {% else %}
+        <h1>Welcome to eBuy!</h1>
+        <p>Please log in to access your account.</p>
+        <p><a href="{% url 'login_profile' %}">Logoin</a></p>
+    {% endif %}
+
+    <p><a href="{% url 'account_logout' %}">Logout</a></p>
+</body>
+</html>

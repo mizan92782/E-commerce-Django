@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'products',
-    'customerApp',
+    'Users',
     
     
     
@@ -65,18 +65,18 @@ AUTHENTICATION_BACKENDS = [
 ]
 
 
-# settings.py
-AUTH_USER_MODEL = 'customerApp.CustomUser'
+#! for custom user model
+AUTH_USER_MODEL = 'Users.CustomUser'
 
-
+# Allauth settings
 ACCOUNT_AUTHENTICATION_METHOD = 'email'
 ACCOUNT_EMAIL_REQUIRED = True
 ACCOUNT_USERNAME_REQUIRED = False
 ACCOUNT_USER_MODEL_USERNAME_FIELD = None
 ACCOUNT_EMAIL_VERIFICATION = "mandatory"
 ACCOUNT_CONFIRM_EMAIL_ON_GET = True
-LOGIN_REDIRECT_URL = 'home'
-LOGOUT_REDIRECT_URL = 'login'
+LOGIN_REDIRECT_URL = 'home'  # Redirect after login
+LOGOUT_REDIRECT_URL = 'home'  # Redirect after logout
 
 
 from decouple import config
