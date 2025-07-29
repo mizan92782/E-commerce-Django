@@ -1,5 +1,6 @@
 from django.contrib.auth.models import User
 from django.db import models
+from customerApp.models import CustomUser, CustomUserManager
 
 # Create your models here.
  
@@ -33,7 +34,6 @@ def products_image(instance, filename):
   return 'users/{0}/{1}/{2}'.format(instance.owner.username, instance.title, filename)
 
 class Products(models.Model):
-   owner = models.ForeignKey(User, on_delete=models.CASCADE)
    title = models.CharField(max_length=50)
    description = models.TextField(max_length=5000)
    price =models.IntegerField()

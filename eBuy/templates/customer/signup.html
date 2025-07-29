@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Signup</title>
+</head>
+<body>
+    <h2>Signup</h2>
+    <form method="POST">
+        {% csrf_token %}
+        <label>First Name:</label><br>
+        <input type="text" name="first_name"><br>
+        
+        <label>Last Name:</label><br>
+        <input type="text" name="last_name"><br>
+
+        <label>Email:</label><br>
+        <input type="email" name="email"><br>
+
+        <label>Password:</label><br>
+        <input type="password" name="password"><br>
+
+        <label>Contact Number:</label><br>
+        <input type="text" name="contact_number"><br>
+
+        <label>Address:</label><br>
+        <textarea name="address"></textarea><br><br>
+
+        <input type="submit" value="Signup">
+    </form>
+    <p>Already have an account? <a href="{% url 'account_login' %}">Login</a></p>
+
+    <p>Or sign up with:</p>
+    <a href="{% provider_login_url 'google' %}">Google</a>
+</body>
+</html>

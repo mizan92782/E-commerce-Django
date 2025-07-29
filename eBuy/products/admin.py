@@ -6,10 +6,7 @@ from .models import Products  # Import the Products model
 @admin.register(Products)
 
 class ProductsAdmin(admin.ModelAdmin):
-    list_display = ('id','owner','title', 'price', 'count', 'category')  # Fields to display in the admin list view
-    search_fields = ('owner', 'title')  # Fields to search in the admin interface
-    list_filter = ('owner',) 
-    readonly_fields=('owner',)
+    list_display = ('id','title', 'price', 'count', 'category')  # Fields to display in the admin list view
     
     
     def save_model(self, request, obj, form, change):

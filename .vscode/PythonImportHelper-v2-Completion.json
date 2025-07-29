@@ -1,27 +1,58 @@
 [
     {
-        "label": "os",
-        "kind": 6,
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
         "isExtraImport": true,
-        "importPath": "os",
-        "description": "os",
-        "detail": "os",
+        "detail": "django.db",
         "documentation": {}
     },
     {
-        "label": "get_asgi_application",
-        "importPath": "django.core.asgi",
-        "description": "django.core.asgi",
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
         "isExtraImport": true,
-        "detail": "django.core.asgi",
+        "detail": "django.db",
         "documentation": {}
     },
     {
-        "label": "Path",
-        "importPath": "pathlib",
-        "description": "pathlib",
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
         "isExtraImport": true,
-        "detail": "pathlib",
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
         "documentation": {}
     },
     {
@@ -38,6 +69,86 @@
         "description": "django.contrib",
         "isExtraImport": true,
         "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AbstractBaseUser",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "BaseUserManager",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "PermissionsMixin",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
         "documentation": {}
     },
     {
@@ -65,149 +176,43 @@
         "documentation": {}
     },
     {
-        "label": "static",
-        "importPath": "django.conf.urls.static",
-        "description": "django.conf.urls.static",
+        "label": "LogoutView",
+        "importPath": "django.contrib.auth.views",
+        "description": "django.contrib.auth.views",
         "isExtraImport": true,
-        "detail": "django.conf.urls.static",
+        "detail": "django.contrib.auth.views",
         "documentation": {}
     },
     {
-        "label": "settings",
-        "importPath": "django.conf",
-        "description": "django.conf",
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
         "isExtraImport": true,
-        "detail": "django.conf",
+        "detail": "django.shortcuts",
         "documentation": {}
     },
     {
-        "label": "settings",
-        "importPath": "django.conf",
-        "description": "django.conf",
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
         "isExtraImport": true,
-        "detail": "django.conf",
+        "detail": "django.shortcuts",
         "documentation": {}
     },
     {
-        "label": "get_wsgi_application",
-        "importPath": "django.core.wsgi",
-        "description": "django.core.wsgi",
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
         "isExtraImport": true,
-        "detail": "django.core.wsgi",
+        "detail": "django.shortcuts",
         "documentation": {}
     },
     {
-        "label": "django.db.models.deletion",
-        "kind": 6,
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
         "isExtraImport": true,
-        "importPath": "django.db.models.deletion",
-        "description": "django.db.models.deletion",
-        "detail": "django.db.models.deletion",
-        "documentation": {}
-    },
-    {
-        "label": "products.models",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "products.models",
-        "description": "products.models",
-        "detail": "products.models",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "migrations",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "models",
-        "importPath": "django.db",
-        "description": "django.db",
-        "isExtraImport": true,
-        "detail": "django.db",
-        "documentation": {}
-    },
-    {
-        "label": "AppConfig",
-        "importPath": "django.apps",
-        "description": "django.apps",
-        "isExtraImport": true,
-        "detail": "django.apps",
-        "documentation": {}
-    },
-    {
-        "label": "User",
-        "importPath": "django.contrib.auth.models",
-        "description": "django.contrib.auth.models",
-        "isExtraImport": true,
-        "detail": "django.contrib.auth.models",
-        "documentation": {}
-    },
-    {
-        "label": "TestCase",
-        "importPath": "django.test",
-        "description": "django.test",
-        "isExtraImport": true,
-        "detail": "django.test",
+        "detail": "django.shortcuts",
         "documentation": {}
     },
     {
@@ -227,12 +232,197 @@
         "documentation": {}
     },
     {
+        "label": "default_token_generator",
+        "importPath": "django.contrib.auth.tokens",
+        "description": "django.contrib.auth.tokens",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.tokens",
+        "documentation": {}
+    },
+    {
+        "label": "default_token_generator",
+        "importPath": "django.contrib.auth.tokens",
+        "description": "django.contrib.auth.tokens",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.tokens",
+        "documentation": {}
+    },
+    {
+        "label": "send_mail",
+        "importPath": "django.core.mail",
+        "description": "django.core.mail",
+        "isExtraImport": true,
+        "detail": "django.core.mail",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "importPath": "decouple",
+        "description": "decouple",
+        "isExtraImport": true,
+        "detail": "decouple",
+        "documentation": {}
+    },
+    {
+        "label": "static",
+        "importPath": "django.conf.urls.static",
+        "description": "django.conf.urls.static",
+        "isExtraImport": true,
+        "detail": "django.conf.urls.static",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "products.models",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "products.models",
+        "description": "products.models",
+        "detail": "products.models",
+        "documentation": {}
+    },
+    {
+        "label": "CustomUser",
+        "importPath": "customerApp.models",
+        "description": "customerApp.models",
+        "isExtraImport": true,
+        "detail": "customerApp.models",
+        "documentation": {}
+    },
+    {
+        "label": "CustomUserManager",
+        "importPath": "customerApp.models",
+        "description": "customerApp.models",
+        "isExtraImport": true,
+        "detail": "customerApp.models",
+        "documentation": {}
+    },
+    {
         "label": "sys",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "sys",
         "description": "sys",
         "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "eBuy.customerApp.migrations.0001_initial",
+        "description": "eBuy.customerApp.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('auth', '0012_alter_user_first_name_max_length'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='CustomUser',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "eBuy.customerApp.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "CustomerappConfig",
+        "kind": 6,
+        "importPath": "eBuy.customerApp.apps",
+        "description": "eBuy.customerApp.apps",
+        "peekOfCode": "class CustomerappConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'customerApp'",
+        "detail": "eBuy.customerApp.apps",
+        "documentation": {}
+    },
+    {
+        "label": "CustomUserManager",
+        "kind": 6,
+        "importPath": "eBuy.customerApp.models",
+        "description": "eBuy.customerApp.models",
+        "peekOfCode": "class CustomUserManager(BaseUserManager):\n    def create_user(self, email, first_name, last_name, contact_number, address, password=None):\n        if not email:\n            raise ValueError(\"Users must have an email address\")\n        email = self.normalize_email(email)\n        user = self.model(email=email, first_name=first_name, last_name=last_name,\n                          contact_number=contact_number, address=address)\n        user.set_password(password)\n        user.is_active = False  # Until email verification\n        user.save(using=self._db)",
+        "detail": "eBuy.customerApp.models",
+        "documentation": {}
+    },
+    {
+        "label": "CustomUser",
+        "kind": 6,
+        "importPath": "eBuy.customerApp.models",
+        "description": "eBuy.customerApp.models",
+        "peekOfCode": "class CustomUser(AbstractBaseUser, PermissionsMixin):\n    email = models.EmailField(unique=True)\n    first_name = models.CharField(max_length=100)\n    last_name = models.CharField(max_length=100)\n    contact_number = models.CharField(max_length=15)\n    address = models.TextField()\n    is_active = models.BooleanField(default=False)\n    is_staff = models.BooleanField(default=False)\n    objects = CustomUserManager()\n    USERNAME_FIELD = 'email'",
+        "detail": "eBuy.customerApp.models",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "eBuy.customerApp.urls",
+        "description": "eBuy.customerApp.urls",
+        "peekOfCode": "urlpatterns = [\n    path('verify/<int:uid>/<str:token>/', verify_email, name='verify_email'),\n    path('', lambda request: render(request, 'home.html'), name='home'),\n    path('logout/', LogoutView.as_view(), name='logout'),\n]",
+        "detail": "eBuy.customerApp.urls",
+        "documentation": {}
+    },
+    {
+        "label": "send_verification_email",
+        "kind": 2,
+        "importPath": "eBuy.customerApp.utils",
+        "description": "eBuy.customerApp.utils",
+        "peekOfCode": "def send_verification_email(request, user):\n    from django.urls import reverse\n    token = default_token_generator.make_token(user)\n    uid = user.pk\n    verify_link = request.build_absolute_uri(reverse(\"verify_email\", args=[uid, token]))\n    subject = \"Verify Your Email\"\n    message = f\"Click to verify: {verify_link}\"\n    send_mail(subject, message, settings.DEFAULT_FROM_EMAIL, [user.email])",
+        "detail": "eBuy.customerApp.utils",
+        "documentation": {}
+    },
+    {
+        "label": "verify_email",
+        "kind": 2,
+        "importPath": "eBuy.customerApp.views",
+        "description": "eBuy.customerApp.views",
+        "peekOfCode": "def verify_email(request, uid, token):\n    user = CustomUser.objects.get(pk=uid)\n    if default_token_generator.check_token(user, token):\n        user.is_active = True\n        user.save()\n        login(request, user)\n        return redirect('products/home')\n    return render(request, 'email_invalid.html')",
+        "detail": "eBuy.customerApp.views",
         "documentation": {}
     },
     {
@@ -285,7 +475,7 @@
         "kind": 5,
         "importPath": "eBuy.eBuy.settings",
         "description": "eBuy.eBuy.settings",
-        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'products',\n    # Allauth apps\n    'allauth',",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'products',\n    'customerApp',\n    # Allauth apps",
         "detail": "eBuy.eBuy.settings",
         "documentation": {}
     },
@@ -294,7 +484,7 @@
         "kind": 5,
         "importPath": "eBuy.eBuy.settings",
         "description": "eBuy.eBuy.settings",
-        "peekOfCode": "AUTHENTICATION_BACKENDS = [\n    'django.contrib.auth.backends.ModelBackend',          # Default\n    'allauth.account.auth_backends.AuthenticationBackend' # Allauth\n]\nAUTHENTICATION_BACKENDS = [\n    'django.contrib.auth.backends.ModelBackend',          # Default\n    'allauth.account.auth_backends.AuthenticationBackend' # Allauth\n]\n# settings.py\nLOGIN_REDIRECT_URL = '/'          # Redirect after login",
+        "peekOfCode": "AUTHENTICATION_BACKENDS = [\n    'django.contrib.auth.backends.ModelBackend',          # Default\n    'allauth.account.auth_backends.AuthenticationBackend' # Allauth\n]\nAUTHENTICATION_BACKENDS = [\n    'django.contrib.auth.backends.ModelBackend',          # Default\n    'allauth.account.auth_backends.AuthenticationBackend' # Allauth\n]\n# settings.py\nAUTH_USER_MODEL = 'customerApp.CustomUser'",
         "detail": "eBuy.eBuy.settings",
         "documentation": {}
     },
@@ -303,52 +493,16 @@
         "kind": 5,
         "importPath": "eBuy.eBuy.settings",
         "description": "eBuy.eBuy.settings",
-        "peekOfCode": "AUTHENTICATION_BACKENDS = [\n    'django.contrib.auth.backends.ModelBackend',          # Default\n    'allauth.account.auth_backends.AuthenticationBackend' # Allauth\n]\n# settings.py\nLOGIN_REDIRECT_URL = '/'          # Redirect after login\nACCOUNT_LOGOUT_REDIRECT_URL = '/'  # Redirect after logout\nACCOUNT_SIGNUP_REDIRECT_URL = '/'  \nACCOUNT_EMAIL_REQUIRED = True\nACCOUNT_USERNAME_REQUIRED = True",
+        "peekOfCode": "AUTHENTICATION_BACKENDS = [\n    'django.contrib.auth.backends.ModelBackend',          # Default\n    'allauth.account.auth_backends.AuthenticationBackend' # Allauth\n]\n# settings.py\nAUTH_USER_MODEL = 'customerApp.CustomUser'\nACCOUNT_AUTHENTICATION_METHOD = 'email'\nACCOUNT_EMAIL_REQUIRED = True\nACCOUNT_USERNAME_REQUIRED = False\nACCOUNT_USER_MODEL_USERNAME_FIELD = None",
         "detail": "eBuy.eBuy.settings",
         "documentation": {}
     },
     {
-        "label": "LOGIN_REDIRECT_URL",
+        "label": "AUTH_USER_MODEL",
         "kind": 5,
         "importPath": "eBuy.eBuy.settings",
         "description": "eBuy.eBuy.settings",
-        "peekOfCode": "LOGIN_REDIRECT_URL = '/'          # Redirect after login\nACCOUNT_LOGOUT_REDIRECT_URL = '/'  # Redirect after logout\nACCOUNT_SIGNUP_REDIRECT_URL = '/'  \nACCOUNT_EMAIL_REQUIRED = True\nACCOUNT_USERNAME_REQUIRED = True\nACCOUNT_AUTHENTICATION_METHOD = 'email'\nACCOUNT_EMAIL_VERIFICATION = 'none'\nSOCIALACCOUNT_AUTO_SIGNUP = True\nACCOUNT_EMAIL_REQUIRED = True\nACCOUNT_UNIQUE_EMAIL = True",
-        "detail": "eBuy.eBuy.settings",
-        "documentation": {}
-    },
-    {
-        "label": "ACCOUNT_LOGOUT_REDIRECT_URL",
-        "kind": 5,
-        "importPath": "eBuy.eBuy.settings",
-        "description": "eBuy.eBuy.settings",
-        "peekOfCode": "ACCOUNT_LOGOUT_REDIRECT_URL = '/'  # Redirect after logout\nACCOUNT_SIGNUP_REDIRECT_URL = '/'  \nACCOUNT_EMAIL_REQUIRED = True\nACCOUNT_USERNAME_REQUIRED = True\nACCOUNT_AUTHENTICATION_METHOD = 'email'\nACCOUNT_EMAIL_VERIFICATION = 'none'\nSOCIALACCOUNT_AUTO_SIGNUP = True\nACCOUNT_EMAIL_REQUIRED = True\nACCOUNT_UNIQUE_EMAIL = True\nSOCIALACCOUNT_PROVIDERS = {",
-        "detail": "eBuy.eBuy.settings",
-        "documentation": {}
-    },
-    {
-        "label": "ACCOUNT_SIGNUP_REDIRECT_URL",
-        "kind": 5,
-        "importPath": "eBuy.eBuy.settings",
-        "description": "eBuy.eBuy.settings",
-        "peekOfCode": "ACCOUNT_SIGNUP_REDIRECT_URL = '/'  \nACCOUNT_EMAIL_REQUIRED = True\nACCOUNT_USERNAME_REQUIRED = True\nACCOUNT_AUTHENTICATION_METHOD = 'email'\nACCOUNT_EMAIL_VERIFICATION = 'none'\nSOCIALACCOUNT_AUTO_SIGNUP = True\nACCOUNT_EMAIL_REQUIRED = True\nACCOUNT_UNIQUE_EMAIL = True\nSOCIALACCOUNT_PROVIDERS = {\n    'google': {",
-        "detail": "eBuy.eBuy.settings",
-        "documentation": {}
-    },
-    {
-        "label": "ACCOUNT_EMAIL_REQUIRED",
-        "kind": 5,
-        "importPath": "eBuy.eBuy.settings",
-        "description": "eBuy.eBuy.settings",
-        "peekOfCode": "ACCOUNT_EMAIL_REQUIRED = True\nACCOUNT_USERNAME_REQUIRED = True\nACCOUNT_AUTHENTICATION_METHOD = 'email'\nACCOUNT_EMAIL_VERIFICATION = 'none'\nSOCIALACCOUNT_AUTO_SIGNUP = True\nACCOUNT_EMAIL_REQUIRED = True\nACCOUNT_UNIQUE_EMAIL = True\nSOCIALACCOUNT_PROVIDERS = {\n    'google': {\n        'APP': {",
-        "detail": "eBuy.eBuy.settings",
-        "documentation": {}
-    },
-    {
-        "label": "ACCOUNT_USERNAME_REQUIRED",
-        "kind": 5,
-        "importPath": "eBuy.eBuy.settings",
-        "description": "eBuy.eBuy.settings",
-        "peekOfCode": "ACCOUNT_USERNAME_REQUIRED = True\nACCOUNT_AUTHENTICATION_METHOD = 'email'\nACCOUNT_EMAIL_VERIFICATION = 'none'\nSOCIALACCOUNT_AUTO_SIGNUP = True\nACCOUNT_EMAIL_REQUIRED = True\nACCOUNT_UNIQUE_EMAIL = True\nSOCIALACCOUNT_PROVIDERS = {\n    'google': {\n        'APP': {\n            'client_id': '982256397195-1u55e0osv3gbdfh0lmnrmf74et4e35h8.apps.googleusercontent.com',",
+        "peekOfCode": "AUTH_USER_MODEL = 'customerApp.CustomUser'\nACCOUNT_AUTHENTICATION_METHOD = 'email'\nACCOUNT_EMAIL_REQUIRED = True\nACCOUNT_USERNAME_REQUIRED = False\nACCOUNT_USER_MODEL_USERNAME_FIELD = None\nACCOUNT_EMAIL_VERIFICATION = \"mandatory\"\nACCOUNT_CONFIRM_EMAIL_ON_GET = True\nLOGIN_REDIRECT_URL = 'home'\nLOGOUT_REDIRECT_URL = 'login'\nfrom decouple import config",
         "detail": "eBuy.eBuy.settings",
         "documentation": {}
     },
@@ -357,25 +511,7 @@
         "kind": 5,
         "importPath": "eBuy.eBuy.settings",
         "description": "eBuy.eBuy.settings",
-        "peekOfCode": "ACCOUNT_AUTHENTICATION_METHOD = 'email'\nACCOUNT_EMAIL_VERIFICATION = 'none'\nSOCIALACCOUNT_AUTO_SIGNUP = True\nACCOUNT_EMAIL_REQUIRED = True\nACCOUNT_UNIQUE_EMAIL = True\nSOCIALACCOUNT_PROVIDERS = {\n    'google': {\n        'APP': {\n            'client_id': '982256397195-1u55e0osv3gbdfh0lmnrmf74et4e35h8.apps.googleusercontent.com',\n            'secret': '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',",
-        "detail": "eBuy.eBuy.settings",
-        "documentation": {}
-    },
-    {
-        "label": "ACCOUNT_EMAIL_VERIFICATION",
-        "kind": 5,
-        "importPath": "eBuy.eBuy.settings",
-        "description": "eBuy.eBuy.settings",
-        "peekOfCode": "ACCOUNT_EMAIL_VERIFICATION = 'none'\nSOCIALACCOUNT_AUTO_SIGNUP = True\nACCOUNT_EMAIL_REQUIRED = True\nACCOUNT_UNIQUE_EMAIL = True\nSOCIALACCOUNT_PROVIDERS = {\n    'google': {\n        'APP': {\n            'client_id': '982256397195-1u55e0osv3gbdfh0lmnrmf74et4e35h8.apps.googleusercontent.com',\n            'secret': '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',\n        },",
-        "detail": "eBuy.eBuy.settings",
-        "documentation": {}
-    },
-    {
-        "label": "SOCIALACCOUNT_AUTO_SIGNUP",
-        "kind": 5,
-        "importPath": "eBuy.eBuy.settings",
-        "description": "eBuy.eBuy.settings",
-        "peekOfCode": "SOCIALACCOUNT_AUTO_SIGNUP = True\nACCOUNT_EMAIL_REQUIRED = True\nACCOUNT_UNIQUE_EMAIL = True\nSOCIALACCOUNT_PROVIDERS = {\n    'google': {\n        'APP': {\n            'client_id': '982256397195-1u55e0osv3gbdfh0lmnrmf74et4e35h8.apps.googleusercontent.com',\n            'secret': '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',\n        },\n        'AUTH_PARAMS': {",
+        "peekOfCode": "ACCOUNT_AUTHENTICATION_METHOD = 'email'\nACCOUNT_EMAIL_REQUIRED = True\nACCOUNT_USERNAME_REQUIRED = False\nACCOUNT_USER_MODEL_USERNAME_FIELD = None\nACCOUNT_EMAIL_VERIFICATION = \"mandatory\"\nACCOUNT_CONFIRM_EMAIL_ON_GET = True\nLOGIN_REDIRECT_URL = 'home'\nLOGOUT_REDIRECT_URL = 'login'\nfrom decouple import config\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'",
         "detail": "eBuy.eBuy.settings",
         "documentation": {}
     },
@@ -384,16 +520,124 @@
         "kind": 5,
         "importPath": "eBuy.eBuy.settings",
         "description": "eBuy.eBuy.settings",
-        "peekOfCode": "ACCOUNT_EMAIL_REQUIRED = True\nACCOUNT_UNIQUE_EMAIL = True\nSOCIALACCOUNT_PROVIDERS = {\n    'google': {\n        'APP': {\n            'client_id': '982256397195-1u55e0osv3gbdfh0lmnrmf74et4e35h8.apps.googleusercontent.com',\n            'secret': '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',\n        },\n        'AUTH_PARAMS': {\n            'access_type': 'online',",
+        "peekOfCode": "ACCOUNT_EMAIL_REQUIRED = True\nACCOUNT_USERNAME_REQUIRED = False\nACCOUNT_USER_MODEL_USERNAME_FIELD = None\nACCOUNT_EMAIL_VERIFICATION = \"mandatory\"\nACCOUNT_CONFIRM_EMAIL_ON_GET = True\nLOGIN_REDIRECT_URL = 'home'\nLOGOUT_REDIRECT_URL = 'login'\nfrom decouple import config\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'",
         "detail": "eBuy.eBuy.settings",
         "documentation": {}
     },
     {
-        "label": "ACCOUNT_UNIQUE_EMAIL",
+        "label": "ACCOUNT_USERNAME_REQUIRED",
         "kind": 5,
         "importPath": "eBuy.eBuy.settings",
         "description": "eBuy.eBuy.settings",
-        "peekOfCode": "ACCOUNT_UNIQUE_EMAIL = True\nSOCIALACCOUNT_PROVIDERS = {\n    'google': {\n        'APP': {\n            'client_id': '982256397195-1u55e0osv3gbdfh0lmnrmf74et4e35h8.apps.googleusercontent.com',\n            'secret': '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',\n        },\n        'AUTH_PARAMS': {\n            'access_type': 'online',\n            'prompt': 'select_account'   # Force Google to ask account every time",
+        "peekOfCode": "ACCOUNT_USERNAME_REQUIRED = False\nACCOUNT_USER_MODEL_USERNAME_FIELD = None\nACCOUNT_EMAIL_VERIFICATION = \"mandatory\"\nACCOUNT_CONFIRM_EMAIL_ON_GET = True\nLOGIN_REDIRECT_URL = 'home'\nLOGOUT_REDIRECT_URL = 'login'\nfrom decouple import config\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587",
+        "detail": "eBuy.eBuy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ACCOUNT_USER_MODEL_USERNAME_FIELD",
+        "kind": 5,
+        "importPath": "eBuy.eBuy.settings",
+        "description": "eBuy.eBuy.settings",
+        "peekOfCode": "ACCOUNT_USER_MODEL_USERNAME_FIELD = None\nACCOUNT_EMAIL_VERIFICATION = \"mandatory\"\nACCOUNT_CONFIRM_EMAIL_ON_GET = True\nLOGIN_REDIRECT_URL = 'home'\nLOGOUT_REDIRECT_URL = 'login'\nfrom decouple import config\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587\nEMAIL_HOST_USER = config('EMAIL_HOST_USER')",
+        "detail": "eBuy.eBuy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ACCOUNT_EMAIL_VERIFICATION",
+        "kind": 5,
+        "importPath": "eBuy.eBuy.settings",
+        "description": "eBuy.eBuy.settings",
+        "peekOfCode": "ACCOUNT_EMAIL_VERIFICATION = \"mandatory\"\nACCOUNT_CONFIRM_EMAIL_ON_GET = True\nLOGIN_REDIRECT_URL = 'home'\nLOGOUT_REDIRECT_URL = 'login'\nfrom decouple import config\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587\nEMAIL_HOST_USER = config('EMAIL_HOST_USER')\nEMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')",
+        "detail": "eBuy.eBuy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ACCOUNT_CONFIRM_EMAIL_ON_GET",
+        "kind": 5,
+        "importPath": "eBuy.eBuy.settings",
+        "description": "eBuy.eBuy.settings",
+        "peekOfCode": "ACCOUNT_CONFIRM_EMAIL_ON_GET = True\nLOGIN_REDIRECT_URL = 'home'\nLOGOUT_REDIRECT_URL = 'login'\nfrom decouple import config\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587\nEMAIL_HOST_USER = config('EMAIL_HOST_USER')\nEMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')\nEMAIL_USE_TLS = True",
+        "detail": "eBuy.eBuy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGIN_REDIRECT_URL",
+        "kind": 5,
+        "importPath": "eBuy.eBuy.settings",
+        "description": "eBuy.eBuy.settings",
+        "peekOfCode": "LOGIN_REDIRECT_URL = 'home'\nLOGOUT_REDIRECT_URL = 'login'\nfrom decouple import config\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587\nEMAIL_HOST_USER = config('EMAIL_HOST_USER')\nEMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')\nEMAIL_USE_TLS = True\nDEFAULT_FROM_EMAIL = config('EMAIL_HOST_USER')",
+        "detail": "eBuy.eBuy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGOUT_REDIRECT_URL",
+        "kind": 5,
+        "importPath": "eBuy.eBuy.settings",
+        "description": "eBuy.eBuy.settings",
+        "peekOfCode": "LOGOUT_REDIRECT_URL = 'login'\nfrom decouple import config\nEMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587\nEMAIL_HOST_USER = config('EMAIL_HOST_USER')\nEMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')\nEMAIL_USE_TLS = True\nDEFAULT_FROM_EMAIL = config('EMAIL_HOST_USER')\nSOCIALACCOUNT_PROVIDERS = {",
+        "detail": "eBuy.eBuy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_BACKEND",
+        "kind": 5,
+        "importPath": "eBuy.eBuy.settings",
+        "description": "eBuy.eBuy.settings",
+        "peekOfCode": "EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587\nEMAIL_HOST_USER = config('EMAIL_HOST_USER')\nEMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')\nEMAIL_USE_TLS = True\nDEFAULT_FROM_EMAIL = config('EMAIL_HOST_USER')\nSOCIALACCOUNT_PROVIDERS = {\n    'google': {\n        'APP': {",
+        "detail": "eBuy.eBuy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST",
+        "kind": 5,
+        "importPath": "eBuy.eBuy.settings",
+        "description": "eBuy.eBuy.settings",
+        "peekOfCode": "EMAIL_HOST = 'smtp.gmail.com'\nEMAIL_PORT = 587\nEMAIL_HOST_USER = config('EMAIL_HOST_USER')\nEMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')\nEMAIL_USE_TLS = True\nDEFAULT_FROM_EMAIL = config('EMAIL_HOST_USER')\nSOCIALACCOUNT_PROVIDERS = {\n    'google': {\n        'APP': {\n            'client_id': '982256397195-1u55e0osv3gbdfh0lmnrmf74et4e35h8.apps.googleusercontent.com',",
+        "detail": "eBuy.eBuy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_PORT",
+        "kind": 5,
+        "importPath": "eBuy.eBuy.settings",
+        "description": "eBuy.eBuy.settings",
+        "peekOfCode": "EMAIL_PORT = 587\nEMAIL_HOST_USER = config('EMAIL_HOST_USER')\nEMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')\nEMAIL_USE_TLS = True\nDEFAULT_FROM_EMAIL = config('EMAIL_HOST_USER')\nSOCIALACCOUNT_PROVIDERS = {\n    'google': {\n        'APP': {\n            'client_id': '982256397195-1u55e0osv3gbdfh0lmnrmf74et4e35h8.apps.googleusercontent.com',\n            'secret': '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',",
+        "detail": "eBuy.eBuy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST_USER",
+        "kind": 5,
+        "importPath": "eBuy.eBuy.settings",
+        "description": "eBuy.eBuy.settings",
+        "peekOfCode": "EMAIL_HOST_USER = config('EMAIL_HOST_USER')\nEMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')\nEMAIL_USE_TLS = True\nDEFAULT_FROM_EMAIL = config('EMAIL_HOST_USER')\nSOCIALACCOUNT_PROVIDERS = {\n    'google': {\n        'APP': {\n            'client_id': '982256397195-1u55e0osv3gbdfh0lmnrmf74et4e35h8.apps.googleusercontent.com',\n            'secret': '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',\n        },",
+        "detail": "eBuy.eBuy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_HOST_PASSWORD",
+        "kind": 5,
+        "importPath": "eBuy.eBuy.settings",
+        "description": "eBuy.eBuy.settings",
+        "peekOfCode": "EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')\nEMAIL_USE_TLS = True\nDEFAULT_FROM_EMAIL = config('EMAIL_HOST_USER')\nSOCIALACCOUNT_PROVIDERS = {\n    'google': {\n        'APP': {\n            'client_id': '982256397195-1u55e0osv3gbdfh0lmnrmf74et4e35h8.apps.googleusercontent.com',\n            'secret': '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',\n        },\n        'AUTH_PARAMS': {",
+        "detail": "eBuy.eBuy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_USE_TLS",
+        "kind": 5,
+        "importPath": "eBuy.eBuy.settings",
+        "description": "eBuy.eBuy.settings",
+        "peekOfCode": "EMAIL_USE_TLS = True\nDEFAULT_FROM_EMAIL = config('EMAIL_HOST_USER')\nSOCIALACCOUNT_PROVIDERS = {\n    'google': {\n        'APP': {\n            'client_id': '982256397195-1u55e0osv3gbdfh0lmnrmf74et4e35h8.apps.googleusercontent.com',\n            'secret': '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',\n        },\n        'AUTH_PARAMS': {\n            'access_type': 'online',",
+        "detail": "eBuy.eBuy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_FROM_EMAIL",
+        "kind": 5,
+        "importPath": "eBuy.eBuy.settings",
+        "description": "eBuy.eBuy.settings",
+        "peekOfCode": "DEFAULT_FROM_EMAIL = config('EMAIL_HOST_USER')\nSOCIALACCOUNT_PROVIDERS = {\n    'google': {\n        'APP': {\n            'client_id': '982256397195-1u55e0osv3gbdfh0lmnrmf74et4e35h8.apps.googleusercontent.com',\n            'secret': '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',\n        },\n        'AUTH_PARAMS': {\n            'access_type': 'online',\n            'prompt': 'select_account'   # Force Google to ask account every time",
         "detail": "eBuy.eBuy.settings",
         "documentation": {}
     },
@@ -465,7 +709,7 @@
         "kind": 5,
         "importPath": "eBuy.eBuy.settings",
         "description": "eBuy.eBuy.settings",
-        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\nMEDIA_URL = 'media/'\nMEDIA_ROOT = BASE_DIR / 'media'\nimport os",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nMEDIA_URL = 'media/'\nMEDIA_ROOT = BASE_DIR / 'media'\nimport os\n# Static files (CSS, JavaScript, Images)",
         "detail": "eBuy.eBuy.settings",
         "documentation": {}
     },
@@ -474,7 +718,7 @@
         "kind": 5,
         "importPath": "eBuy.eBuy.settings",
         "description": "eBuy.eBuy.settings",
-        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\nMEDIA_URL = 'media/'\nMEDIA_ROOT = BASE_DIR / 'media'\nimport os\n# Static files (CSS, JavaScript, Images)",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nMEDIA_URL = 'media/'\nMEDIA_ROOT = BASE_DIR / 'media'\nimport os\n# Static files (CSS, JavaScript, Images)\nSTATIC_URL = '/static/'",
         "detail": "eBuy.eBuy.settings",
         "documentation": {}
     },
@@ -483,7 +727,7 @@
         "kind": 5,
         "importPath": "eBuy.eBuy.settings",
         "description": "eBuy.eBuy.settings",
-        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\nMEDIA_URL = 'media/'\nMEDIA_ROOT = BASE_DIR / 'media'\nimport os\n# Static files (CSS, JavaScript, Images)\nSTATIC_URL = '/static/'",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nMEDIA_URL = 'media/'\nMEDIA_ROOT = BASE_DIR / 'media'\nimport os\n# Static files (CSS, JavaScript, Images)\nSTATIC_URL = '/static/'\n# Path to the static folder",
         "detail": "eBuy.eBuy.settings",
         "documentation": {}
     },
@@ -492,16 +736,7 @@
         "kind": 5,
         "importPath": "eBuy.eBuy.settings",
         "description": "eBuy.eBuy.settings",
-        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nSTATIC_URL = 'static/'\nMEDIA_URL = 'media/'\nMEDIA_ROOT = BASE_DIR / 'media'\nimport os\n# Static files (CSS, JavaScript, Images)\nSTATIC_URL = '/static/'\n# Path to the static folder",
-        "detail": "eBuy.eBuy.settings",
-        "documentation": {}
-    },
-    {
-        "label": "STATIC_URL",
-        "kind": 5,
-        "importPath": "eBuy.eBuy.settings",
-        "description": "eBuy.eBuy.settings",
-        "peekOfCode": "STATIC_URL = 'static/'\nMEDIA_URL = 'media/'\nMEDIA_ROOT = BASE_DIR / 'media'\nimport os\n# Static files (CSS, JavaScript, Images)\nSTATIC_URL = '/static/'\n# Path to the static folder\nSTATICFILES_DIRS = [\n    os.path.join(BASE_DIR, 'static'),\n]",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.2/howto/static-files/\nMEDIA_URL = 'media/'\nMEDIA_ROOT = BASE_DIR / 'media'\nimport os\n# Static files (CSS, JavaScript, Images)\nSTATIC_URL = '/static/'\n# Path to the static folder\nSTATICFILES_DIRS = [",
         "detail": "eBuy.eBuy.settings",
         "documentation": {}
     },
@@ -564,7 +799,7 @@
         "kind": 5,
         "importPath": "eBuy.eBuy.urls",
         "description": "eBuy.eBuy.urls",
-        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('',include('products.urls'),name='products'),\n    path('accounts/',include('allauth.urls'),name='accounts'),\n    ]\nif settings.DEBUG:\n    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('product',include('products.urls'),name='products'),\n    path('', include('customerApp.urls')),\n    path('accounts/',include('allauth.urls'),name='accounts'),\n    ]\nif settings.DEBUG:\n    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)",
         "detail": "eBuy.eBuy.urls",
         "documentation": {}
     },
@@ -582,35 +817,8 @@
         "kind": 6,
         "importPath": "eBuy.products.migrations.0001_initial",
         "description": "eBuy.products.migrations.0001_initial",
-        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Products',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Products',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('title', models.CharField(max_length=50)),",
         "detail": "eBuy.products.migrations.0001_initial",
-        "documentation": {}
-    },
-    {
-        "label": "Migration",
-        "kind": 6,
-        "importPath": "eBuy.products.migrations.0002_rename_images_products_image_products_image1_and_more",
-        "description": "eBuy.products.migrations.0002_rename_images_products_image_products_image1_and_more",
-        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('products', '0001_initial'),\n    ]\n    operations = [\n        migrations.RenameField(\n            model_name='products',\n            old_name='images',\n            new_name='image',\n        ),",
-        "detail": "eBuy.products.migrations.0002_rename_images_products_image_products_image1_and_more",
-        "documentation": {}
-    },
-    {
-        "label": "Migration",
-        "kind": 6,
-        "importPath": "eBuy.products.migrations.0003_remove_products_image1_remove_products_image2_and_more",
-        "description": "eBuy.products.migrations.0003_remove_products_image1_remove_products_image2_and_more",
-        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('products', '0002_rename_images_products_image_products_image1_and_more'),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name='products',\n            name='image1',\n        ),\n        migrations.RemoveField(",
-        "detail": "eBuy.products.migrations.0003_remove_products_image1_remove_products_image2_and_more",
-        "documentation": {}
-    },
-    {
-        "label": "Migration",
-        "kind": 6,
-        "importPath": "eBuy.products.migrations.0004_alter_products_category",
-        "description": "eBuy.products.migrations.0004_alter_products_category",
-        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('products', '0003_remove_products_image1_remove_products_image2_and_more'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='products',\n            name='category',\n            field=models.CharField(choices=[('Education', 'Education'), ('Electrics', 'Electrics'), ('Midecine', 'Medicine'), ('Fashion', 'Fashion'), ('Grocery', 'Grocery'), ('Kids', 'Kids'), ('Sport', 'Sport'), ('Beauty', 'Beauty'), ('Wearing', 'Wearing'), ('Religious', 'Religious'), ('Fruits', 'Fruits'), ('Vegetables', 'Vegetables'), ('Household', 'Household'), ('Toys', 'Toys'), ('Pet', 'Pet'), ('Books', 'Books'), ('Stationary', 'Stationary'), ('Furniture', 'Furniture'), ('Tools', 'Tools'), ('Automotive', 'Automotive'), ('Garden', 'Garden')]),\n        ),",
-        "detail": "eBuy.products.migrations.0004_alter_products_category",
         "documentation": {}
     },
     {
@@ -618,7 +826,7 @@
         "kind": 6,
         "importPath": "eBuy.products.admin",
         "description": "eBuy.products.admin",
-        "peekOfCode": "class ProductsAdmin(admin.ModelAdmin):\n    list_display = ('id','owner','title', 'price', 'count', 'category')  # Fields to display in the admin list view\n    search_fields = ('owner', 'title')  # Fields to search in the admin interface\n    list_filter = ('owner',) \n    readonly_fields=('owner',)\n    def save_model(self, request, obj, form, change):\n        if not change:  # only set on create, not update\n            obj.owner = request.user\n        super().save_model(request, obj, form, change)",
+        "peekOfCode": "class ProductsAdmin(admin.ModelAdmin):\n    list_display = ('id','title', 'price', 'count', 'category')  # Fields to display in the admin list view\n    def save_model(self, request, obj, form, change):\n        if not change:  # only set on create, not update\n            obj.owner = request.user\n        super().save_model(request, obj, form, change)",
         "detail": "eBuy.products.admin",
         "documentation": {}
     },
@@ -645,7 +853,7 @@
         "kind": 6,
         "importPath": "eBuy.products.models",
         "description": "eBuy.products.models",
-        "peekOfCode": "class Products(models.Model):\n   owner = models.ForeignKey(User, on_delete=models.CASCADE)\n   title = models.CharField(max_length=50)\n   description = models.TextField(max_length=5000)\n   price =models.IntegerField()\n   count= models.IntegerField(default=0)\n   category = models.CharField(choices=product_category)\n   image=models.FileField(upload_to=products_image)\n   def __str__(self):\n        return self.title",
+        "peekOfCode": "class Products(models.Model):\n   title = models.CharField(max_length=50)\n   description = models.TextField(max_length=5000)\n   price =models.IntegerField()\n   count= models.IntegerField(default=0)\n   category = models.CharField(choices=product_category)\n   image=models.FileField(upload_to=products_image)\n   def __str__(self):\n        return self.title",
         "detail": "eBuy.products.models",
         "documentation": {}
     },
@@ -654,7 +862,7 @@
         "kind": 2,
         "importPath": "eBuy.products.models",
         "description": "eBuy.products.models",
-        "peekOfCode": "def products_image(instance, filename):\n  return 'users/{0}/{1}/{2}'.format(instance.owner.username, instance.title, filename)\nclass Products(models.Model):\n   owner = models.ForeignKey(User, on_delete=models.CASCADE)\n   title = models.CharField(max_length=50)\n   description = models.TextField(max_length=5000)\n   price =models.IntegerField()\n   count= models.IntegerField(default=0)\n   category = models.CharField(choices=product_category)\n   image=models.FileField(upload_to=products_image)",
+        "peekOfCode": "def products_image(instance, filename):\n  return 'users/{0}/{1}/{2}'.format(instance.owner.username, instance.title, filename)\nclass Products(models.Model):\n   title = models.CharField(max_length=50)\n   description = models.TextField(max_length=5000)\n   price =models.IntegerField()\n   count= models.IntegerField(default=0)\n   category = models.CharField(choices=product_category)\n   image=models.FileField(upload_to=products_image)\n   def __str__(self):",
         "detail": "eBuy.products.models",
         "documentation": {}
     },
