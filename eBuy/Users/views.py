@@ -24,7 +24,8 @@ def login_profile_view(request):
         # Get login credentials from form
         email = request.POST.get('username')
         password = request.POST.get('password')
-
+        
+       
         # Authenticate user using custom user model (USERNAME_FIELD = 'email')
         user = authenticate(request, username=email, password=password)
 
@@ -75,10 +76,14 @@ def signup_view(request):
         # Extract data from form
         email = request.POST['email']
         password = request.POST['password']
+        password1 = request.POST['password1']
         first_name = request.POST['first_name']
         last_name = request.POST['last_name']
         contact_number = request.POST['contact_number']
         address = request.POST['address']
+        
+        if password != password1:
+            return render(request, 'User/signup.html', {'error': 'Passwords do not match'})
 
         # Prevent duplicate email signup
         if CustomUser.objects.filter(email=email).exists():

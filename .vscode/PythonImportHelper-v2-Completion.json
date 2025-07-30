@@ -88,6 +88,14 @@
         "documentation": {}
     },
     {
+        "label": "DefaultSocialAccountAdapter",
+        "importPath": "allauth.socialaccount.adapter",
+        "description": "allauth.socialaccount.adapter",
+        "isExtraImport": true,
+        "detail": "allauth.socialaccount.adapter",
+        "documentation": {}
+    },
+    {
         "label": "Users.models",
         "kind": 6,
         "isExtraImport": true,
@@ -488,6 +496,15 @@
         "documentation": {}
     },
     {
+        "label": "CustomSocialAccountAdapter",
+        "kind": 6,
+        "importPath": "eBuy.Users.adapters",
+        "description": "eBuy.Users.adapters",
+        "peekOfCode": "class CustomSocialAccountAdapter(DefaultSocialAccountAdapter):\n    def populate_user(self, request, sociallogin, data):\n        user = super().populate_user(request, sociallogin, data)\n        user.is_active = True  # Mark user active if logging in via social\n        return user",
+        "detail": "eBuy.Users.adapters",
+        "documentation": {}
+    },
+    {
         "label": "CustomerAdmin",
         "kind": 6,
         "importPath": "eBuy.Users.admin",
@@ -555,7 +572,7 @@
         "kind": 2,
         "importPath": "eBuy.Users.views",
         "description": "eBuy.Users.views",
-        "peekOfCode": "def signup_view(request):\n    if request.method == \"POST\":\n        # Extract data from form\n        email = request.POST['email']\n        password = request.POST['password']\n        first_name = request.POST['first_name']\n        last_name = request.POST['last_name']\n        contact_number = request.POST['contact_number']\n        address = request.POST['address']\n        # Prevent duplicate email signup",
+        "peekOfCode": "def signup_view(request):\n    if request.method == \"POST\":\n        # Extract data from form\n        email = request.POST['email']\n        password = request.POST['password']\n        password1 = request.POST['password1']\n        first_name = request.POST['first_name']\n        last_name = request.POST['last_name']\n        contact_number = request.POST['contact_number']\n        address = request.POST['address']",
         "detail": "eBuy.Users.views",
         "documentation": {}
     },
@@ -618,16 +635,7 @@
         "kind": 5,
         "importPath": "eBuy.eBuy.settings",
         "description": "eBuy.eBuy.settings",
-        "peekOfCode": "AUTHENTICATION_BACKENDS = [\n    'django.contrib.auth.backends.ModelBackend',          # Default\n    'allauth.account.auth_backends.AuthenticationBackend' # Allauth\n]\nAUTHENTICATION_BACKENDS = [\n    'django.contrib.auth.backends.ModelBackend',          # Default\n    'allauth.account.auth_backends.AuthenticationBackend' # Allauth\n]\n#! for custom user model\nAUTH_USER_MODEL = 'Users.CustomUser'",
-        "detail": "eBuy.eBuy.settings",
-        "documentation": {}
-    },
-    {
-        "label": "AUTHENTICATION_BACKENDS",
-        "kind": 5,
-        "importPath": "eBuy.eBuy.settings",
-        "description": "eBuy.eBuy.settings",
-        "peekOfCode": "AUTHENTICATION_BACKENDS = [\n    'django.contrib.auth.backends.ModelBackend',          # Default\n    'allauth.account.auth_backends.AuthenticationBackend' # Allauth\n]\n#! for custom user model\nAUTH_USER_MODEL = 'Users.CustomUser'\n# Allauth settings\nACCOUNT_AUTHENTICATION_METHOD = 'email'\nACCOUNT_EMAIL_REQUIRED = True\nACCOUNT_USERNAME_REQUIRED = False",
+        "peekOfCode": "AUTHENTICATION_BACKENDS = [\n    'django.contrib.auth.backends.ModelBackend',          # Default\n    'allauth.account.auth_backends.AuthenticationBackend' # Allauth\n]\n#! for custom user model\nAUTH_USER_MODEL = 'Users.CustomUser'\n# Allauth settings for not requiring email verification for social accounts\nSOCIALACCOUNT_EMAIL_VERIFICATION = \"none\"  # Disable for social accounts\nSOCIALACCOUNT_ADAPTER = 'Users.adapters.CustomSocialAccountAdapter'\n# nomal user",
         "detail": "eBuy.eBuy.settings",
         "documentation": {}
     },
@@ -636,7 +644,25 @@
         "kind": 5,
         "importPath": "eBuy.eBuy.settings",
         "description": "eBuy.eBuy.settings",
-        "peekOfCode": "AUTH_USER_MODEL = 'Users.CustomUser'\n# Allauth settings\nACCOUNT_AUTHENTICATION_METHOD = 'email'\nACCOUNT_EMAIL_REQUIRED = True\nACCOUNT_USERNAME_REQUIRED = False\nACCOUNT_USER_MODEL_USERNAME_FIELD = None\nACCOUNT_EMAIL_VERIFICATION = \"mandatory\"\nACCOUNT_CONFIRM_EMAIL_ON_GET = True\nLOGIN_REDIRECT_URL = 'home'  # Redirect after login\nLOGOUT_REDIRECT_URL = 'home'  # Redirect after logout",
+        "peekOfCode": "AUTH_USER_MODEL = 'Users.CustomUser'\n# Allauth settings for not requiring email verification for social accounts\nSOCIALACCOUNT_EMAIL_VERIFICATION = \"none\"  # Disable for social accounts\nSOCIALACCOUNT_ADAPTER = 'Users.adapters.CustomSocialAccountAdapter'\n# nomal user\nACCOUNT_AUTHENTICATION_METHOD = 'email'\nACCOUNT_EMAIL_REQUIRED = True\nACCOUNT_USERNAME_REQUIRED = False\nACCOUNT_USER_MODEL_USERNAME_FIELD = None\nACCOUNT_EMAIL_VERIFICATION = \"mandatory\"",
+        "detail": "eBuy.eBuy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SOCIALACCOUNT_EMAIL_VERIFICATION",
+        "kind": 5,
+        "importPath": "eBuy.eBuy.settings",
+        "description": "eBuy.eBuy.settings",
+        "peekOfCode": "SOCIALACCOUNT_EMAIL_VERIFICATION = \"none\"  # Disable for social accounts\nSOCIALACCOUNT_ADAPTER = 'Users.adapters.CustomSocialAccountAdapter'\n# nomal user\nACCOUNT_AUTHENTICATION_METHOD = 'email'\nACCOUNT_EMAIL_REQUIRED = True\nACCOUNT_USERNAME_REQUIRED = False\nACCOUNT_USER_MODEL_USERNAME_FIELD = None\nACCOUNT_EMAIL_VERIFICATION = \"mandatory\"\nACCOUNT_CONFIRM_EMAIL_ON_GET = True\nLOGIN_REDIRECT_URL = 'home'  # Redirect after login",
+        "detail": "eBuy.eBuy.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SOCIALACCOUNT_ADAPTER",
+        "kind": 5,
+        "importPath": "eBuy.eBuy.settings",
+        "description": "eBuy.eBuy.settings",
+        "peekOfCode": "SOCIALACCOUNT_ADAPTER = 'Users.adapters.CustomSocialAccountAdapter'\n# nomal user\nACCOUNT_AUTHENTICATION_METHOD = 'email'\nACCOUNT_EMAIL_REQUIRED = True\nACCOUNT_USERNAME_REQUIRED = False\nACCOUNT_USER_MODEL_USERNAME_FIELD = None\nACCOUNT_EMAIL_VERIFICATION = \"mandatory\"\nACCOUNT_CONFIRM_EMAIL_ON_GET = True\nLOGIN_REDIRECT_URL = 'home'  # Redirect after login\nLOGOUT_REDIRECT_URL = 'home'  # Redirect after logout",
         "detail": "eBuy.eBuy.settings",
         "documentation": {}
     },
@@ -933,7 +959,7 @@
         "kind": 5,
         "importPath": "eBuy.eBuy.urls",
         "description": "eBuy.eBuy.urls",
-        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('product/',include('products.urls'),name='products'),\n    path('user/', include('Users.urls')),\n    path('accounts/',include('allauth.urls')),\n    ]\nif settings.DEBUG:\n    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('',include('products.urls'),name='products'),\n    path('user/', include('Users.urls')),\n    path('accounts/',include('allauth.urls')),\n    ]\nif settings.DEBUG:\n    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)",
         "detail": "eBuy.eBuy.urls",
         "documentation": {}
     },
