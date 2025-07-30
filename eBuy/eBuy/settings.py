@@ -58,7 +58,6 @@ SOCIALACCOUNT_EMAIL_VERIFICATION = "none"  # Disable for social accounts
 SOCIALACCOUNT_ADAPTER = 'Users.adapters.CustomSocialAccountAdapter'
 
 
-
 # nomal user
 ACCOUNT_AUTHENTICATION_METHOD = 'email'
 ACCOUNT_EMAIL_REQUIRED = True
@@ -66,9 +65,14 @@ ACCOUNT_USERNAME_REQUIRED = False
 ACCOUNT_USER_MODEL_USERNAME_FIELD = None
 ACCOUNT_EMAIL_VERIFICATION = "mandatory"
 ACCOUNT_CONFIRM_EMAIL_ON_GET = True
+
+
+
+LOGIN_URL='login_profile'
 LOGIN_REDIRECT_URL = 'home'  # Redirect after login
 LOGOUT_REDIRECT_URL = 'home'  # Redirect after logout
 
+#to escape intermediate page after login
 
 from decouple import config
 
@@ -188,6 +192,7 @@ import os
 
 # Static files (CSS, JavaScript, Images)
 STATIC_URL = '/static/'
+STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 # Path to the static folder
 STATICFILES_DIRS = [
