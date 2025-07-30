@@ -1,0 +1,260 @@
+:root {
+    --bgc: #fc9f15;
+}
+
+
+/* header */
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--bgc);
+    padding: 12px 24px;
+    border-bottom: 2px solid #f0f0f0;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    height: 40px;
+    width: 40px;
+}
+
+.site-title {
+    font-size: 1.9rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.header-center {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.contact-info {
+    font-size: 0.95rem;
+    color: #555;
+}
+
+.icon-link {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #ffffff;
+    color: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.icon-link:hover {
+    font-size: 2rm;
+    color: #f4f4f5;
+    font-weight: bold;
+}
+
+.icon-text {
+    margin-left: 4px;
+}
+
+.icon-text {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+
+
+/* Container to hold all cards in a row-wise layout */
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+/* product card design */
+
+.product-card {
+    width: 280px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.product-card:hover {
+    transform: scale(1.03);
+}
+
+
+/* Product image */
+
+.product-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+/* Product text area */
+
+.product-body {
+    padding: 15px;
+}
+
+
+/* Product title & price */
+
+.product-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.product-price {
+    color: green;
+    font-weight: 800;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+
+/* Product description */
+
+.product-description {
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 15px;
+}
+
+
+/* Add to cart button */
+
+.product-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fc9f15;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.product-button:hover {
+    background-color: #f19305;
+}
+
+
+/* Main Layout: Sidebar + Content side by side */
+
+.main-layout {
+    display: flex;
+    padding: 20px;
+    gap: 30px;
+}
+
+.content {
+    flex: 1;
+}
+
+.category-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.category-list li {
+    margin-bottom: 10px;
+}
+
+.category-list a {
+    text-decoration: none;
+    color: #6b1111;
+    display: block;
+    padding: 6px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.category-list a:hover,
+.category-list a.active {
+    background-color: #182a3d;
+    color: white;
+}
+
+
+/* Sidebar layout */
+
+.sidebar {
+    width: 220px;
+    background-color: var(--bgc);
+    padding: 20px 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    height: fit-content;
+    position: sticky;
+    top: 20px;
+}
+
+
+/* ! Sidebar heading */
+
+.sidebar-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 8px;
+}
+
+
+/* Category list */
+
+.category-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.category-list li {
+    margin-bottom: 0px;
+}
+
+.category-list a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.category-list a:hover {
+    background-color: White;
+    color: black;
+}
+
+
+/* Highlight active category */
+
+.category-list a.active {
+    color: white;
+    font-weight: bold;
+}
